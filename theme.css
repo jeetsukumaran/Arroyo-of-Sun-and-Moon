@@ -1,0 +1,1508 @@
+
+/*
+ * Reference: <https://docs.obsidian.md/Reference/CSS+variables/CSS+variables>
+ */
+
+:root {
+    --icon-color: #ff0000;
+    /* --arroyo-sola-luna-light-accent-major: #805050; */
+    --arroyo-sola-luna-light-accent-major: #805050;
+    /* --arroyo-sola-luna-light-accent-major: #c04000; */
+    /* --arroyo-sola-luna-light-accent-major: #c04000; /1* mahagoney *1/ */
+    /* --arroyo-sola-luna-light-accent-major: #670a0a; /1* mahagoney red *1/ */
+    --arroyo-sola-luna-light-accent-minor: #603030;
+    /* --arroyo-sola-luna-dark-accent-major: #ff9900; */
+    --arroyo-sola-luna-dark-accent-major: #ff9900;
+    --arroyo-sola-luna-dark-accent-major:       #c8bda8;
+    /* --arroyo-sola-luna-accent-major:       #ff9900; */
+    /* --arroyo-sola-luna-accent-major:       #c8bda8; */
+}
+
+/* Dark Scheme Color Definitions {{{1 */
+
+:root
+{
+    --arroyo-sola-luna-dark-bg1                  : #323030; /* background main */
+    --arroyo-sola-luna-dark-fg1                  : #c0b088; /* text */
+    --arroyo-sola-luna-dark-fg1                  : #aaa090; /* text */
+    --arroyo-sola-luna-dark-bg2                  : #4e575f; /* menu background and border */
+
+    --arroyo-sola-luna-dark-text-normal          : var(--arroyo-sola-luna-dark-fg1); /* text */
+    --arroyo-sola-luna-dark-text-faint           : #809090; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    --arroyo-sola-luna-dark-text-muted           : #d5d5c5; /* menu/interface text */
+
+    --arroyo-sola-luna-dark-text-heading-h1      : #587074;
+    --arroyo-sola-luna-dark-text-heading-h2      : #448888;
+    --arroyo-sola-luna-dark-text-heading-h3      : #5b8060;
+    --arroyo-sola-luna-dark-text-heading-h4      : #808060;
+    --arroyo-sola-luna-dark-text-heading-h5      : #707070;
+    --arroyo-sola-luna-dark-text-heading-h6      : #505050;
+
+    /* --arroyo-sola-luna-dark-text-heading-h1      : #427b58; */
+    /* --arroyo-sola-luna-dark-text-heading-h2      : #448888; */
+    /* --arroyo-sola-luna-dark-text-heading-h3      : #5b8060; */
+    /* --arroyo-sola-luna-dark-text-heading-h4      : #808060; */
+    /* --arroyo-sola-luna-dark-text-heading-h5      : #667070; */
+    /* --arroyo-sola-luna-dark-text-heading-h6      : #505050; */
+
+    --arroyo-sola-luna-dark-text-highlight-bg    : #555555;
+    --arroyo-sola-luna-dark-text-selection       : #501818;
+    --arroyo-sola-luna-dark-text-highlight-fg    : none;
+    --arroyo-sola-luna-dark-text-accent          : #80b0a8; /* links */
+    --arroyo-sola-luna-dark-text-accent-hover    : #ffff00; /* links */
+
+    --arroyo-sola-luna-dark-code-fg              : #60a8a0;
+    --arroyo-sola-luna-dark-code-bg              : #282424;
+
+    --arroyo-sola-luna-dark-tag-color            : #888888;
+    --arroyo-sola-luna-dark-tag-background       : #202020;
+    --arroyo-sola-luna-dark-tag-background-hover : #000000;
+
+    --arroyo-sola-luna-dark-checkbox-fg          : var(--arroyo-sola-luna-dark-text-faint);
+    --arroyo-sola-luna-dark-checkbox-done-fg     : var(--arroyo-sola-luna-dark-text-muted);
+
+    --arroyo-sola-luna-dark-icon-hover           : red;
+    --arroyo-sola-luna-dark-icon-focused         : red;
+
+    --arroyo-sola-luna-dark-frame-accent-bg         : #484c50;
+    --arroyo-sola-luna-dark-heading-accent-bg         : #2a2828;
+
+    --arroyo-sola-luna-dark-table-row-even-background: #3d3d3d;
+    --arroyo-sola-luna-dark-table-row-odd-background:  #383838;
+    --arroyo-sola-luna-dark-table-row-background-hover: var(--arroyo-sola-luna-dark-text-highlight-bg);
+    --arroyo-sola-luna-dark-table-header-background: #282828;
+    /* --arroyo-sola-luna-dark-table-header-background: var(--arroyo-sola-luna-dark-bg2); */
+    /* --arroyo-sola-luna-dark-table-header-background: #101010; */
+    --arroyo-sola-luna-dark-table-header-background-hover: var(--arroyo-sola-luna-dark-table-header-background);
+}
+
+/* }}}1 */
+
+/* Dark Theme Base {{{1 */
+
+.theme-dark
+{
+    --arroyo-sola-luna-accent-major:           var(--arroyo-sola-luna-dark-accent-major);
+    --arroyo-sola-luna-accent-minor:           var(--arroyo-sola-luna-dark-accent-minor);
+    --background-primary:            var(--arroyo-sola-luna-dark-bg1);
+    --background-primary-alt:        var(--arroyo-sola-luna-dark-bg1);
+    --background-secondary:          var(--arroyo-sola-luna-dark-bg2);
+    --background-secondary-alt:      var(--arroyo-sola-luna-dark-bg2);
+    --arroyo-sola-luna-frame-accent-bg:     var(--arroyo-sola-luna-dark-frame-accent-bg);
+    --background-modifier-border:    var(--arroyo-sola-luna-frame-accent-bg);
+    --arroyo-sola-luna-heading-accent-bg: var(--arroyo-sola-luna-dark-heading-accent-bg);
+
+
+    --cursor-line-background:        var(--arroyo-sola-luna-dark-graph-line);
+    /* --divider-color:                 var(--arroyo-sola-luna-dark-graph-line); */
+
+    --text-normal:                   var(--arroyo-sola-luna-dark-fg1);
+    --text-faint:                    var(--arroyo-sola-luna-dark-text-faint);
+    --text-muted:                    var(--arroyo-sola-luna-dark-text-muted);
+
+    --h1-color:                      var(--arroyo-sola-luna-dark-text-heading-h1);
+    --h2-color:                      var(--arroyo-sola-luna-dark-text-heading-h2);
+    --h3-color:                      var(--arroyo-sola-luna-dark-text-heading-h3);
+    --h4-color:                      var(--arroyo-sola-luna-dark-text-heading-h4);
+    --h5-color:                      var(--arroyo-sola-luna-dark-text-heading-h5);
+    --h6-color:                      var(--arroyo-sola-luna-dark-text-heading-h6);
+
+    --text-highlight-bg:             var(--arroyo-sola-luna-dark-text-highlight-bg);
+    --text-highlight-fg:             var(--arroyo-sola-luna-dark-text-highlight-fg);
+
+    --text-accent:                   var(--arroyo-sola-luna-dark-text-accent);
+    --text-accent-hover:             var(--arroyo-sola-luna-dark-text-accent-hover);
+
+    --tag-color:                     var(--arroyo-sola-luna-dark-tag-color);
+    --tag-background:                var(--arroyo-sola-luna-dark-tag-background);
+    --tag-background-hover:          var(--arroyo-sola-luna-dark-tag-background-hover);
+
+    --titlebar-text-color-focused:   var(--arroyo-sola-luna-dark-titlebar-focused-text-fg);
+
+    --inline-title-color:            var(--arroyo-sola-luna-dark-inline-title-fg);
+
+    --bold-color:                    var(--text-normal);
+    --italic-color:                  var(--text-normal);
+
+    --checkbox-color:                var(--arroyo-sola-luna-dark-checkbox-fg);
+    --checkbox-color-hover:          var(--arroyo-sola-luna-dark-checkbox-fg);
+    --checkbox-border-color:         var(--arroyo-sola-luna-dark-checkbox-fg);
+    --checkbox-border-color-hover:   var(--arroyo-sola-luna-dark-checkbox-fg);
+    --checklist-done-color:          var(--arroyo-sola-luna-dark-checkbox-donoe-fg);
+
+    --table-header-background:       var(--arroyo-sola-luna-dark-table-header-background);
+    --table-row-even-background:          var(--arroyo-sola-luna-dark-table-row-even-background);
+    --table-row-odd-background:          var(--arroyo-sola-luna-dark-table-row-odd-background);
+
+    --text-selection:                var(--arroyo-sola-luna-dark-text-selection);
+
+    --code-normal:                   var(--arroyo-sola-luna-dark-code-fg);
+    --code-background:               var(--arroyo-sola-luna-dark-code-bg);
+
+    --icon-color-hover:              var(--arroyo-sola-luna-dark-item-hover);
+    --icon-color-focused:            var(--arroyo-sola-luna-dark-item-focused);
+
+    --nav-item-color-hover:          var(--arroyo-sola-luna-dark-nav-item-active);
+    --nav-item-color-active:         var(--arroyo-sola-luna-dark-nav-item-active);
+    --nav-file-tag:                  var(--arroyo-sola-luna-dark-nav-file-tag);
+
+    --graph-line:                    var(--arroyo-sola-luna-dark-graph-line);
+    --graph-node:                    var(--arroyo-sola-luna-dark-graph-node);
+    --graph-node-tag:                var(--arroyo-sola-luna-dark-graph-node-tag);
+    --graph-node-attachment:         var(--arroyo-sola-luna-dark-graph-node-attachement);
+
+    --tab-text-color-focused-active:         var(--arroyo-sola-luna-dark-tab-focused-active-fg);
+    --tab-text-color-focused-active-current: var(--arroyo-sola-luna-dark-tab-focused-active-current-fg);
+
+    /* --background-modifier-border: #f2e5bc;*/
+    /* --background-modifier-form-field: rgba(0, 0, 0, 0.2);*/
+    /* --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.5);*/
+    /* --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);*/
+    /* --background-modifier-success: #197300; /*no sure*/*/
+    /* --background-modifier-error: #3d0000; /*no sure*/*/
+    /* --background-modifier-error-rgb: 61, 0, 0;*/
+    /* --background-modifier-error-hover: #470000;*/
+    /* --background-modifier-cover: rgba(0, 0, 0, 0.6);*/
+}
+
+/* }}}1 */
+
+/* Light Scheme Color Definitions {{{1 */
+
+:root
+{
+    /* --arroyo-sola-luna-accent-major:                        #663333; */
+    /* --arroyo-sola-luna-accent-major:                        #604040; */
+    /* --arroyo-sola-luna-accent-major:                        #583838; */
+    --arroyo-sola-luna-light-bg1                           : #c4b4a8; /* background main */
+    --arroyo-sola-luna-light-fg1                           : #203038; /* text */
+    /* --arroyo-sola-luna-light-bg2                           : #446666; /1* menu background and border *1/ */
+    /* --arroyo-sola-luna-light-bg2                           : #668890; /1* menu background and border *1/ */
+    /* --arroyo-sola-luna-light-bg2                           : #206070; /1* menu background and border *1/ */
+    /* --arroyo-sola-luna-light-bg2                           : #608080; /1* menu background and border *1/ */
+    /* --arroyo-sola-luna-light-bg2                           : #608080; /1* menu background and border *1/ */
+    /* --arroyo-sola-luna-light-bg2                           : #608080; /1* menu background and border *1/ */
+    /* --arroyo-sola-luna-light-bg2                           : #809090; /1* menu background and border *1/ */
+    /* --arroyo-sola-luna-light-bg2                           : #809890; /1* menu background and border *1/ */
+    /* --arroyo-sola-luna-light-bg2                           : #688888; /1* menu background and border *1/ */
+    /* --arroyo-sola-luna-light-bg2                           : #709090; /1* menu background and border *1/ */
+    /* --arroyo-sola-luna-light-bg2                           : #609090; /1* menu background and border *1/ */
+    --arroyo-sola-luna-light-bg2                           : #709090; /* menu background and border */
+    /* --arroyo-sola-luna-light-bg2                           : #608888; /1* menu background and border *1/ */
+    /* --arroyo-sola-luna-light-bg2                           : #509090; /1* menu background and border *1/ */
+    /* --arroyo-sola-luna-light-bg2                           : #409090; /1* menu background and border *1/ */
+    /* --arroyo-sola-luna-light-bg2                           : #306070; /1* menu background and border *1/ */
+
+    --arroyo-sola-luna-light-text-normal                   : var(--arroyo-sola-luna-light-fg1); /* text */
+
+    --arroyo-sola-luna-light-text-heading-fg               : var(--arroyo-sola-luna-light-bg2);
+
+    /* --arroyo-sola-luna-light-text-heading-h1               : #882828; */
+    /* --arroyo-sola-luna-light-text-heading-h2               : #004400; */
+    /* --arroyo-sola-luna-light-text-heading-h3               : #994400; */
+    /* --arroyo-sola-luna-light-text-heading-h4               : #006699; */
+    /* --arroyo-sola-luna-light-text-heading-h5               : #006600; */
+    /* --arroyo-sola-luna-light-text-heading-h6               : #880044; */
+
+    /* --arroyo-sola-luna-light-text-heading-h1               : #600066; */
+    --arroyo-sola-luna-light-text-heading-h1               : #880000;
+    --arroyo-sola-luna-light-text-heading-h2               : #206040;
+    --arroyo-sola-luna-light-text-heading-h3               : #884400;
+    /* --arroyo-sola-luna-light-text-heading-h4               : #662266; */
+    --arroyo-sola-luna-light-text-heading-h4               : #004466;
+    /* --arroyo-sola-luna-light-text-heading-h4               : #005566; */
+    --arroyo-sola-luna-light-text-heading-h5               : #004400;
+    --arroyo-sola-luna-light-text-heading-h6               : #008888;
+
+    /* --arroyo-sola-luna-light-text-heading-h1               : #206070; */
+    /* --arroyo-sola-luna-light-text-heading-h2               : #206070; */
+    /* --arroyo-sola-luna-light-text-heading-h3               : #206070; */
+    /* --arroyo-sola-luna-light-text-heading-h4               : #206070; */
+    /* --arroyo-sola-luna-light-text-heading-h5               : #206070; */
+    /* --arroyo-sola-luna-light-text-heading-h6               : #206070; */
+
+    --arroyo-sola-luna-light-text-highlight-bg             : #00888844;
+    --arroyo-sola-luna-light-text-highlight-fg             : none;
+    /* --arroyo-sola-luna-light-text-accent                   : #014b70; /1* links *1/ */
+    --arroyo-sola-luna-light-text-accent                   : #006644; /* links */
+    --arroyo-sola-luna-light-text-accent-hover             : #000088; /* links */
+
+    --arroyo-sola-luna-light-text-selection-bg             : #0088ff44;
+    --arroyo-sola-luna-light-inline-title-fg               : none; /* set below */
+
+    --arroyo-sola-luna-light-tab-focused-active-fg         : #fff0a0;
+    --arroyo-sola-luna-light-tab-focused-active-current-fg : var(--arroyo-sola-luna-light-bg2);
+
+    --arroyo-sola-luna-light-titlebar-focused-text-fg      : #ffffff;
+
+    --arroyo-sola-luna-light-icon-hover                    : red;
+    --arroyo-sola-luna-light-icon-focused                  : red;
+
+    /* --arroyo-sola-luna-light-text-table-header-bg          : #ebcb8b10; */
+    /* --arroyo-sola-luna-light-text-table-row-bg             : #ebcb8b10; */
+    /* --arroyo-sola-luna-light-table-header-background       : #28282844; */
+    /* --arroyo-sola-luna-light-table-row-odd-background      : #ffffff18; */
+    /* --arroyo-sola-luna-light-table-row-even-background     : #66666618; */
+    /* --arroyo-sola-luna-light-table-row-background-hover: var(--arroyo-sola-luna-light-text-highlight-bg); */
+    /* --arroyo-sola-luna-light-table-header-background-hover: var(--arroyo-sola-luna-light-table-header-background); */
+    /* --arroyo-sola-luna-light-table-header-background       : peru; */
+    --arroyo-sola-luna-light-table-header-background       : #00808040;
+    --arroyo-sola-luna-light-table-row-odd-background      : #eeeedd30;
+    --arroyo-sola-luna-light-table-row-even-background     : #aaccbb60;
+    /* --arroyo-sola-luna-light-table-row-background-hover: var(--arroyo-sola-luna-light-text-highlight-bg); */
+    --arroyo-sola-luna-light-table-row-background-hover: #ffffff88;
+    /* --arroyo-sola-luna-light-table-header-background-hover: var(--arroyo-sola-luna-light-table-header-background); */
+
+    --arroyo-sola-luna-light-nav-item-active               : #bbb098;
+    --arroyo-sola-luna-light-nav-item-hover                : #bcb290;
+    --arroyo-sola-luna-light-graph-line                    : #585858; /* graph line */
+    --arroyo-sola-luna-light-graph-node                    : #585858; /* graph line */
+    --arroyo-sola-luna-light-graph-node-tag                : #585858; /* graph line */
+    --arroyo-sola-luna-light-graph-node-attachment         : #585858; /* graph line */
+
+    --arroyo-sola-luna-light-checkbox-fg                   : var(--arroyo-sola-luna-light-text-faint);
+    --arroyo-sola-luna-light-checkbox-done-fg              : var(--arroyo-sola-luna-light-text-muted);
+
+    --arroyo-sola-luna-light-frame-accent-bg         : #484c50;
+}
+
+/* }}}1 */
+
+/* Light Theme Base {{{1 */
+
+.theme-light
+{
+    --arroyo-sola-luna-accent-major:           var(--arroyo-sola-luna-light-accent-major);
+    --arroyo-sola-luna-accent-minor:           var(--arroyo-sola-luna-light-accent-minor);
+    --background-primary:            var(--arroyo-sola-luna-light-bg1);
+    --background-primary-alt:        var(--arroyo-sola-luna-light-bg1);
+    --background-secondary:          var(--arroyo-sola-luna-light-bg2);
+    /* --background-secondary:          #608078; */
+    /* --background-secondary:          #607880; */
+    /* --background-secondary:          #607878; */
+    /* --background-secondary:          #608078; */
+    --maya-earth-green-background-secondary:          #78866B;
+    --background-secondary-alt:      var(--arroyo-sola-luna-light-bg2);
+    --background-modifier-border:    var(--arroyo-sola-luna-light-bg2);
+
+
+
+
+
+    --cursor-line-background:        var(--arroyo-sola-luna-light-graph-line);
+    --text-normal:                   var(--arroyo-sola-luna-light-fg1);
+    --text-faint:                    var(--arroyo-sola-luna-accent-major);
+    --text-muted:                    var(--arroyo-sola-luna-accent-minor);
+
+    --h1-color:                      var(--arroyo-sola-luna-light-text-heading-h1);
+    --h2-color:                      var(--arroyo-sola-luna-light-text-heading-h2);
+    --h3-color:                      var(--arroyo-sola-luna-light-text-heading-h3);
+    --h4-color:                      var(--arroyo-sola-luna-light-text-heading-h4);
+    --h5-color:                      var(--arroyo-sola-luna-light-text-heading-h5);
+    --h6-color:                      var(--arroyo-sola-luna-light-text-heading-h6);
+
+    --text-highlight-bg:             var(--arroyo-sola-luna-light-text-highlight-bg);
+    --text-highlight-fg:             var(--arroyo-sola-luna-light-text-highlight-fg);
+
+    --text-accent:                   var(--arroyo-sola-luna-light-text-accent);
+    --text-accent-hover:             var(--arroyo-sola-luna-light-text-accent-hover);
+
+    --tag-color:                     var(--arroyo-sola-luna-light-tag-color);
+    --tag-background:                var(--arroyo-sola-luna-light-tag-background);
+    --tag-background-hover:          var(--arroyo-sola-luna-light-tag-background-hover);
+
+    --titlebar-text-color-focused:   var(--arroyo-sola-luna-light-titlebar-focused-text-fg);
+
+    --inline-title-color:            #440000;
+
+    --bold-color:                    #880000;
+    --italic-color:                  #880000;
+
+
+
+
+    --checkbox-color:                var(--text-muted);
+    --checkbox-color-hover:          var(--text-muted);
+    --checkbox-border-color:         var(--text-muted);
+    --checkbox-border-color-hover:   var(--text-muted);
+    --checklist-done-color:          var(--text-muted);
+
+    --table-header-background:       var(--arroyo-sola-luna-light-table-header-background);
+    /* --table-header-background-hover: var(--arroyo-sola-luna-light-table-header-background-hover); */
+    --table-row-even-background:          var(--arroyo-sola-luna-light-table-row-even-background);
+    --table-row-odd-background:          var(--arroyo-sola-luna-light-table-row-odd-background);
+    /* --table-row-background-hover:    var(--arroyo-sola-luna-light-table-row-background-hover); */
+
+    --text-selection:                var(--arroyo-sola-luna-light-text-selection-bg);
+
+    --code-normal:     var(--text-normal);
+    --code-background: #ffffff28;
+    --code-comment:    #696d70;
+    --code-function:   #226622;
+    --code-keyword:    #006099;
+    --code-operator:   #000000;
+    --code-property:   #008bff;
+    --code-string:     #336633;
+    --code-tag:        #ffffff;
+    --code-value:      #0000ff;
+    --code-variable:   #696d70;
+
+    /* --code-function: #c0d700; */
+    /* --code-keyword:  #da7dae; */
+    /* --code-normal:   #f39b35; */
+    /* --code-operator: #fc4384; */
+    /* --code-property: #d4d4d4; */
+    /* --code-string:   #e6db74; */
+    /* --code-tag:      #fc4384; */
+    /* --code-value:    #a06fca; */
+
+    --icon-color:                    var(--arroyo-sola-luna-accent-minor);
+    /* --icon-color:                    #ff9900; */
+
+    --nav-item-color-hover:          var(--arroyo-sola-luna-light-nav-item-hover);
+    --nav-item-color-active:         var(--arroyo-sola-luna-light-nav-item-active);
+    --nav-file-tag:                  var(--arroyo-sola-luna-light-nav-file-tag);
+
+    --graph-line:                    var(--arroyo-sola-luna-light-graph-line);
+    --graph-node:                    var(--arroyo-sola-luna-light-graph-node);
+    --graph-node-tag:                var(--arroyo-sola-luna-light-graph-node-tag);
+    --graph-node-attachment:         var(--arroyo-sola-luna-light-graph-node-attachement);
+
+    --tab-text-color-focused-active:         var(--arroyo-sola-luna-light-tab-focused-active-fg);
+    --tab-text-color-focused-active-current: var(--arroyo-sola-luna-light-tab-focused-active-current-fg);
+    --arroyo-sola-luna-frame-accent-bg: var(--arroyo-sola-luna-light-frame-accent-bg);
+    --arroyo-sola-luna-heading-accent-bg: var(--arroyo-sola-luna-light-heading-accent-bg);
+    /* --background-modifier-border: #f2e5bc; */
+}
+
+/* }}}1 */
+
+/* Body {{{1 */
+
+body
+{
+    /* UI Widget Buttons etc. */
+    --accent-h: 0;
+    /* --accent-s: 30%; */
+    /* --accent-l: 23%; */
+    /* --accent-s: 33%; */
+    /* --accent-l: 30%; */
+    --accent-s: 20%;
+    --accent-l: 30%;
+
+    --font-text-theme: "Ubuntu";
+    --font-interface-theme: "Ubuntu";
+    --font-editor-theme: "Ubuntu";
+    --font-monospace-theme: "Ubuntu Mono";
+
+    --link-decoration:                none;
+    --link-decoration-hover:          underline;
+    --link-external-decoration:       none;
+    --link-external-decoration-hover: underline;
+
+    /* --tag-decoration:                 none; */
+    /* --tag-decoration-hover:           underline; */
+    /* --tag-padding-x:                  .5em; */
+    /* --tag-padding-y:                  .2em; */
+    /* --tag-radius:                     .5em; */
+
+    --icon-color:                    var(--arroyo-sola-luna-accent-minor);
+    --code-radius: 1rem;
+}
+
+/* }}}1 */
+
+/* Special Overrides {{{1 */
+
+/* Interface {{{2 */
+
+/* hash tags in headers */
+.cm-formatting-header {
+    /* color: #00000044; */
+    color: var(--background-secondary);
+}
+
+
+.inline-title {
+    font-family: monospace;
+    text-align: center;
+    font-size: 20px;
+    border-left: 0.5px solid;
+    border-right: 0.5px solid;
+}
+
+/* }}}2 */
+
+/* UI {{{2 */
+
+/* .theme-light .modal-close-button { */
+/*     color: var(--background-secondary); */
+/* } */
+/* .theme-light .mod-community-modal .modal-close-button { */
+/*     color: var(--background-primary); */
+/* } */
+/* }}}2 */
+
+/* collapse/uncoollapse markers {{{2 */
+
+/* little arrows in the native file explorer AND to collapse/uncollapse headings, lists, etc. */
+.right-triangle path
+{
+  stroke-linecap="round";
+  /* filter: opacity(60%); */
+  /* stroke: #442020 !important; */
+  /* stroke: #008888 !important; */
+  /* stroke: #fff000 !important; */
+  /* stroke-width: 6 !important; */
+  /* stroke-linecap="round"; */
+  /* stroke: var(--background-primary); */
+}
+
+.mod-right-split .right-triangle path {
+  /* stroke: #00bbbb !important; */
+}
+
+/* }}}2 */
+
+/* file explorer {{{2 */
+
+/* more compact */
+/* .nav-file-title, */
+/* .nav-folder-title { */
+/*   font-size: 16px; */
+/*   padding: 0px 14px 0px 20px; */
+/* } */
+
+
+/* little arrows in the native file explorer (only) */
+.nav-files-container .right-triangle
+{
+}
+
+.nav-files-container .right-triangle path
+{
+  /* stroke: #008888 !important; */
+}
+
+.theme-light .nav-folder-title {
+    font-weight: normal;
+    color: var(--background-primary) !important;
+}
+
+.theme-dark .nav-folder-title {
+    font-weight: normal;
+    /* color: var(--background-primary) !important; */
+    /* color: #c8c888; */
+    /* color: #201000; */
+    /* color: #b8b878; */
+    /* color: #78b8c8; */
+    /* color: #c8b878; */
+    /* color: var(--text-normal) !important; */
+    /* color: var(--text-normal) !important; */
+    color: #c0b088;
+}
+
+
+.theme-light .nav-file-title {
+    border-radius: 10px;
+    color: #d5d5c5 !important;
+}
+
+.nav-file .is-active {
+    border-radius: 20px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    /* padding-left: 10px; */
+    padding-right: 10px;
+    /* margin-left: 10px; */
+    border: solid 0.5px;
+}
+
+.is-active .nav-file-title-content {
+    font-style: italic;
+}
+
+/* file xplor : smaller & bold vault title */
+.nav-folder.mod-root > .nav-folder-title {
+  padding-left: 6px;
+  font-size: 14px;
+  font-weight: bolder;
+  top: -6px;
+  cursor: default;
+  /* border: solid 1px red; */
+}
+
+/* }}}2 */
+
+/* ribbons / frame {{{2 */
+
+.side-dock-ribbon.mod-left {
+    /* background: #00000000 !important; */
+  /* background: #888480 !important; */
+
+  background: var(--background-secondary) !important;
+
+  /* opacity: 0.5; */
+    /* border-right: solid #55ffff55 1px; */
+}
+
+.side-dock-ribbon > * {
+  /* filter: opacity(60%); */
+}
+
+.workspace-ribbon-collapse-btn {
+}
+.workspace-ribbon.is-collapsed .workspace-ribbon-collapse-btn {
+}
+.workspace-ribbon-collapse-btn:hover {
+}
+
+
+/* .logo-full, */
+/* .logo-wireframe, */
+/* .titlebar-button-container, */
+/* .titlebar-button-container.mod-left, */
+/* .titlebar-button.mod-logo { */
+/*   color: white; */
+/*   background: red !important; */
+/*   filter: opacity(100%); */
+/*   border: solid 1px red; */
+/*   stroke: white; */
+/* } */
+
+/* .workspace-ribbon.side-dock-ribbon.mod-right { */
+/*   border-left: solid 2px var(--background-primary); */
+/*   border-top: solid 2px var(--background-primary); */
+/*   filter: opacity(50%); */
+/* } */
+
+
+/* }}}2 */
+
+/* tab drag handles {{{2 */
+
+/* }}}2 */
+
+/* workspace {{{2 */
+
+/* .workspace-split .view-content { */
+/*     border-left: solid var(--background-secondary) 0.5px; */
+/* } */
+/* .mod-left-split .workspace-tab-container { */
+/*     border-right: solid var(--background-secondary) 0.5px; */
+/* } */
+
+/* .workspace-tabs .workspace-leaf.mod-active { */
+    /* border: solid 2px var(--arroyo-sola-luna-frame-accent-bg); */
+/* } */
+/* .svelte-ldfkf { */
+/*     border-top: solid 2px var(--arroyo-sola-luna-frame-accent-bg); */
+/* } */
+
+/* }}}2 */
+
+/* view header  {{{2 */
+
+/* .view-header-title-container:after { */
+/*   background: linear-gradient(to bottom, transparent, var(--background-primary)) !important; */
+/* } */
+
+/* .workspace-leaf.mod-active .view-header { */
+/*   border-bottom: solid 1px var(--background-secondary); */
+/*   border-top: solid 1px var(--background-primary); */
+/* } */
+
+
+/* .workspace-leaf.mod-active .view-header-title-container:after { */
+/*   background: linear-gradient(to bottom, transparent, var(--background-secondary-alt)) !important; */
+/* } */
+
+/* .workspace-leaf.mod-active .view-header-title, */
+/* .workspace-leaf.mod-active .view-header-icon */
+/* { */
+/*   color: var(--text-faint); */
+/* } */
+
+/* .view-header-title, .view-header-icon, .view-action{ */
+/*   color: var(--text-faint); */
+/* } */
+
+.view-header-breadcrumb,
+.view-header-title-parent,
+.view-header-title,
+.view-header-icon,
+.view-action,
+.view-header-nav-buttons .clickable-icon
+{
+  color: var(--text-faint) !important;
+}
+.workspace-leaf.mod-active .view-header-breadcrumb,
+.workspace-leaf.mod-active .view-header-title-parent,
+.workspace-leaf.mod-active .view-header-title,
+.workspace-leaf.mod-active .view-header-icon,
+.view-action,
+.view-header-nav-buttons .clickable-icon
+{
+  color: var(--text-faint) !important;
+  font-weight: bold;
+}
+
+.theme-light .workspace-leaf-resize-handle {
+  border: solid 5px #00000044;
+}
+
+.theme-dark .workspace-leaf-resize-handle {
+  border: solid 5px #ffffff20;
+}
+
+/* .nav-header, */
+/* .workspace-tabs .workspace-tab-header-container { */
+/*   border: solid 1px red; */
+/*   background: var(--arroyo-sola-luna-frame-accent-bg); */
+/* } */
+
+/* .workspace-tabs.mod-top .workspace-tab-header-container { */
+/*   border: solid 1px red; */
+/*   background: var(--background-secondary); */
+/* } */
+
+
+
+/* }}}2 */
+
+/* settings modal dialog {{{2 */
+
+/* .vertical-tab-header { */
+/*     /1* background: #303030; *1/ */
+/* } */
+
+/* .vertical-tab-header-group-title { */
+/*     /1* background: var(--background-secondary); *1/ */
+/*     color: #ffddbb; */
+/*     color: #ddbb99; */
+/*     /1* color: #eeeedd; *1/ */
+/*     font-weight: bold; */
+/*     border: solid 1px red !important; */
+/* } */
+
+/* .vertical-tab-header-group-items { */
+/*     /1* background: var(--background-secondary); *1/ */
+/*     color: #ddbb99; */
+/*     /1* color: #ffddbb; *1/ */
+/*     color: #d0c8b8; */
+/*     /1* color: #ddbb99; *1/ */
+/* } */
+
+/* .vertical-tab-content { */
+/*     background: var(--background-secondary); */
+/* } */
+
+/* .setting-item-name { */
+/*     /1* color: #00000055; *1/ */
+/*     color: var(--background-secondary); */
+/*     font-weight: bold; */
+/* } */
+
+/* .setting-item-description { */
+/*     color: var(--text-muted); */
+/* } */
+
+
+/* .setting-item-control button { */
+/*     background: var(--background-primary); */
+/*     color: var(--text-normal); */
+/* } */
+
+/* left sidebar of settings modal dialog */
+
+/* .theme-light .vertical-tab-header { */
+/*     border: solid 5px #ffff00 !important; */
+/*     color: var(--text-muted); */
+/* } */
+/* .theme-light .vertical-tab-header-group-title { */
+/*     border: solid 5px #ffff00 !important; */
+/*     color: var(--background-secondary); */
+/*     background: var(--background-primary); */
+/*     border-radius: 20px; */
+/*     text-align: center; */
+/*     padding: 4px; */
+/*     margin-bottom: 5px; */
+/*     margin-top: 0px; */
+/* } */
+/* .vertical-tab-header-group-items { */
+/* } */
+
+/* .vertical-tab-content { */
+/* } */
+
+/* .theme-light .setting-item-name { */
+/*     color: var(--background-secondary) !important; */
+/* } */
+
+/* .theme-light .setting-item-description { */
+/*     color: var(--text-normal); */
+/*     font-style: italic; */
+/* } */
+
+/* .theme-light .setting-item-control button { */
+/*     background: var(--background-secondary); */
+/*     color: var(--text-muted); */
+/* } */
+
+/* }}}2 */
+
+/* these menu dialogs are built differently  {{{2 */
+
+/* theme manager/ browser */
+/* .theme-light .community-modal-controls .setting-item-name { */
+/*     color: var(--text-muted) !important; */
+/* } */
+
+/* /1* plugin browser *1/ */
+/* .community-item * { */
+/*     color: var(--background-secondary) !important; */
+/* } */
+
+/* .community-item-author, */
+/* .community-item-downloads, */
+/* .community-item-updated { */
+/*     font-style: italic; */
+/* } */
+
+/* }}}2 */
+
+/* Popup menus {{{2 */
+
+.menu {
+    border: solid 4px #4896cc44;
+    /* background: #224048cc; */
+    color: white;
+}
+/* }}}2 */
+
+/* tables {{{2 */
+.markdown-rendered tbody tr:nth-child(even)
+{
+    background-color: var(--table-row-even-background) !important;
+}
+
+.markdown-rendered tbody tr:nth-child(odd)
+{
+    background-color: var(--table-row-odd-background) !important;
+}
+
+/* YAML frontmatter outer container in reading mode */
+.metadata-container {
+}
+/* YAML frontmatter inner content container in reading mode */
+.metadata-content,
+/* Frontmatter property rows in edit/preview mode */
+.metadata-property {
+}
+
+/* YAML frontmatter container in preview mode */
+.frontmatter-container {
+}
+
+/* YAML frontmatter container title in editor mode */
+span.cm-meta.cm-hmd-frontmatter,
+span.cm-hmd-frontmatter,
+.frontmatter-container-header
+{
+}
+
+.frontmatter-section {
+}
+
+/* YAML frontmatter label in source mode */
+span.cm-atom.cm-hmd-frontmatter,
+/* YAML frontmatter label in preview mode */
+.frontmatter-section-label,
+/* YAML frontmatter icon in reading mode */
+.metadata-property-icon,
+.metadata-property-key-input {
+    /* color: var(--text-faint) !important; */
+    /* color: #440000 !important; */
+    /* color: var(--background-secondary); */
+    font-weight: bolder !important;
+}
+
+/* YAML frontmatter value in source mode */
+span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter,
+/* YAML frontmatter value in preview mode */
+.frontmatter-section-data {
+    /* color: var(--code-normal) !important; */
+    /* color: var(--text-muted) !important; */
+    /* color: #004060 !important; */
+    /* color: var(--code-normal) !important; */
+}
+
+/* Custom properties {{{2 */
+
+.metadata-property[data-property-key="date"] > .metadata-property-key {
+}
+
+.metadata-property[data-property-key="date"] > .metadata-property-value {
+}
+
+/* }}}2 */
+
+/* Dataview fields {{{2 */
+
+span.dataview.inline-field {
+    border-radius: 10px !important;
+    border: solid 1px black;
+}
+span.dataview.inline-field-key {
+    background: #00999988 !important;
+    border-radius: 10px 0 0 10px;
+    border-right: solid 1px black;
+    font-weight: bold;
+}
+span.dataview.inline-field-value {
+    background: #eeeedd66 !important;
+    border-radius: 0px 10px 10px 0;
+}
+
+.metadata-property[data-property-key="date"] > .metadata-property-value {
+}
+
+/* }}}2 */
+
+/* }}}1 */
+
+/* color scratchpad {{{1
+
+** Beige/Tan/Brown/Red
+
+#ccc6bd
+#c8c1b7
+#bfb7ab
+#aaa090
+#999080;
+#8a8070
+#746c64
+#646060
+#514a3e
+#484032
+#453f35
+#323030
+#2e2a23
+#1b1b20
+
+** Slate/Blue
+
+#3d372f
+#404850
+#606c78
+#808d9a
+#909ba7
+#a0a9b3
+
+}}}1 */
+
+/* Plugins {{{1 */
+
+/* Periodic Notes {{{2 */
+.timeline-container .leaf-periodic-button {
+    background: white !important;
+}
+.is-selected .timeline-day-of-week {
+    background: white !important;
+}
+.is-selected .timeline-day {
+    background: white !important;
+}
+/* }}}2 */
+
+/* }}}1 */
+
+/* Line spacing and Links {{{1 */
+body {
+  --line-height-normal: 1.3;
+  --line-height-tight: 1.5;
+}
+
+/* li, */
+/* p, */
+/* div.cm-content, */
+/* span.cm-list-1, */
+.markdown-source-view.mod-cm6 .cm-line {
+    line-height: 1.3 !important;
+}
+
+/* Links */
+/* Link, View Mode */
+a {
+    /* font-weight: bold; */
+    font-size: 90%;
+}
+
+
+/* Internal Link, Entire, Source Mode */
+.cm-formatting-link,
+/* Markdown Link, Entire, Source Mode */
+.cm-link {
+    font-weight: bold;
+    font-size: 90%;
+}
+
+
+.theme-light .cm-formatting-link-start,
+.theme-light .cm-link-alias-pipe,
+.theme-light .cm-formatting-link-end
+{
+    /* font-weight: bold; */
+    /* color: #00004444 !important; */
+    /* /1* color: #008844ff !important; *1/ */
+    /* color: #00442266 !important; */
+}
+
+.theme-dark .cm-formatting-link-start,
+.theme-dark .cm-link-alias-pipe,
+.theme-dark .cm-formatting-link-end
+{
+    /* font-weight: bold; */
+    /* color: #ccccff88 !important; */
+}
+
+/* Internal Link URL */
+.cm-hmd-internal-link:not(.cm-link-alias):not(.cm-link-alias-pipe),
+/* Markdown Link URL */
+.cm-url {
+    color: var(--code-normal);
+    background: var(--code-background);
+}
+
+/* Internal Link Display Alias */
+.cm-link-alias,
+/* Markdown Link Display/Alias */
+.cm-hmd-barelink {
+}
+
+/* code editor HTML codes and tags */
+.cm-tag,
+.cm-attribute,
+.cm-string,
+.cm-bracket {
+    /* background: #ffffff33; */
+    /* font-style: monospace; */
+}
+
+.cm-hr {
+    display: block;
+    color: #00440055;
+    background-color: var(--background-secondary);
+    color: #ffffff;
+    opacity: 50%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+    line-height: 0.8;
+    border-radius: 10px;
+}
+
+/* backlinks  (bottom of page) */
+
+.workspace-tab-container .workspace-leaf-content .tree-item-inner {
+}
+
+.backlink-pane .tree-item-inner {
+}
+
+.backlink-pane .tree-item-self:hover {
+    /* background-color: initial !important; */
+    background-color: #00000088;
+    color: initial !important;
+    /* color: #00000088 !important; */
+    /* border: solid #00000088 1px; */
+}
+
+/* side panel  (bottom of page) */
+
+
+/* }}}1 */
+
+/* Status bar {{{ */
+.status-bar {
+    border-radius: 0;
+}
+/* }}} */
+
+/*
+ * Inline title {{{
+ */
+
+.inline-title {
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    width: 100%;
+}
+
+.inline-title {
+    background: var(--arroyo-sola-luna-accent-major);
+    color: var(--background-primary);
+    border: solid 0.5rem var(--background-primary);
+}
+
+/* }}} */
+
+
+/*
+ * Source view general lines {{{
+ */
+.cm-line {
+    line-height: 1.5em !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    word-break: keep-all;
+}
+
+/* }}} */
+
+
+/*
+ * Distinguish between different modes {{{
+ */
+
+/* Reading mode */
+.theme-dark .markdown-preview-view
+{
+    background: #00000020 !important;
+    filter: contrast(120%);
+}
+.theme-light .markdown-preview-view
+{
+    background: #ffffff20 !important;
+    filter: contrast(120%);
+}
+
+/* Source and live preview */
+.markdown-source-view
+{
+    /* background: #ffffff48 !important; */
+    /* border: dashed 2px var(--background-secondary) !important; */
+    /* border: solid 1px var(--background-secondary) !important; */
+    margin-right: 0.5rem;
+}
+
+/* Live preview only */
+.is-live-preview
+{
+    /* background: #00000024 !important; */
+    /* background: #ffffff20 !important; */
+    /* border: dashed 1px var(--arroyo-sola-luna-accent-major) !important; */
+    /* background: #ffffff20 !important; */
+    /* border: solid 1px var(--arroyo-sola-luna-accent-major) !important; */
+    box-shadow: 0 0 2.5rem rgba(0,0,0,0.9) inset;
+    border-radius: 2.5rem;
+}
+
+/* }}} */
+
+/*
+ * Code {{{
+ */
+
+/* https://docs.obsidian.md/Reference/CSS+variables/Editor/Code */
+/* --code-normal:                   var(--arroyo-sola-luna-light-code-fg); */
+/* --code-background:               var(--arroyo-sola-luna-light-code-bg); */
+
+
+
+.theme-light .HyperMD-codeblock-begin /* Source mode */
+.theme-light pre /* Rendered/reading mode */
+{
+    /* border-radius: 1rem !important; */
+}
+
+
+HyperMD-codeblock.cm-line {
+}
+
+.cm-hmd-codeblock {
+    /* line-height: 1.2em !important; */
+    /* padding-top: 0 !important; */
+    /* padding-bottom: 0 !important; */
+    /* line-height: normal !important; */
+}
+
+.cm-math /* entire container */
+{
+    /* color: #006000 !important; */
+    color: #886666 !important;
+    font-weight: bold;
+}
+
+.cm-formatting-math /* dollar signs */
+{
+    color: #990000 !important;
+    font-weight: bold !important;
+}
+
+
+/* }}} */
+
+/*
+ * UI Tabs {{{
+ */
+
+
+/* All tab headers, stacked or unstacked, sidebar or otherwise {{{ */
+
+.workspace-tab-header {
+    /* Remove thin border framing stacked tabs */
+    box-shadow: none !important;
+}
+
+.workspace-tab-header {
+    background: var(--background-primary);
+    border: solid 2px var(--arroyo-sola-luna-accent-major);
+}
+
+.workspace-tab-header-inner,
+.workspace-tab-header-inner .svg-icon
+{
+    color: var(--arroyo-sola-luna-accent-major);
+    font-weight: 700;
+}
+
+/* }}} */
+
+/* Sidebar without non-stacked tabs {{{ */
+.mod-left-split .workspace-tab-header,
+.mod-right-split .workspace-tab-header {
+    border: solid 2px var(--arroyo-sola-luna-accent-major);
+}
+.mod-left-split .workspace-tab-header,
+.mod-left-split .workspace-tab-header-inner,
+.mod-left-split .workspace-tab-header-inner .svg-icon,
+.mod-left-split .workspace-tab-header-inner-title,
+.mod-right-split .workspace-tab-header,
+.mod-right-split .workspace-tab-header-inner,
+.mod-right-split .workspace-tab-header-inner .svg-icon,
+.mod-right-split .workspace-tab-header-inner-title
+{
+    /* color: var(--arroyo-sola-luna-accent-major); */
+}
+.mod-left-split .is-active .workspace-tab-header,
+.mod-right-split .is-active .workspace-tab-header {
+}
+
+.mod-left-split .is-active .workspace-tab-header-inner,
+.mod-right-split .is-active .workspace-tab-header-inner {
+    border-bottom: solid 2px var(--arroyo-sola-luna-accent-major);
+}
+
+.mod-left-split .is-active .workspace-tab-header-inner .svg-icon,
+.mod-right-split .is-active .workspace-tab-header-inner .svg-icon {
+}
+
+.mod-left-split .is-active .workspace-tab-header-inner-title,
+.mod-right-split .is-active .workspace-tab-header-inner-title
+{
+    color: var(--background-primary);
+}
+
+/* }}} */
+
+/* Stacked and non-stacked tab headers *excluding* sidebar {{{ */
+
+/* :not(.mod-right-split) .workspace-tab-header-container-inner .workspace-tab-header, */
+/* :not(.mod-right-split) .workspace-tab-header-container-inner .workspace-tab-header .svg-icon, */
+/* :not(.mod-right-split) .workspace-tab-header-container-inner .workspace-tab-header-inner-title */
+:not(.mod-right-split).workspace-tab-header.is-active
+{
+    border-bottom: none;
+}
+
+/* }}} */
+
+
+/* Unstacked tabs  {{{ */
+
+.workspace-tab-header {
+    border: none;
+    /* border: 1px dotted var(--arroyo-sola-luna-accent-major); */
+    /* background: red !important; */
+}
+.workspace-tab-header .workspace-tab-header-inner {
+    background: #40606040;
+    background: #40202020;
+    color: var(--arroyo-sola-luna-accent-major);
+    /* border-bottom: 2px solid var(--arroyo-sola-luna-accent-major); */
+    /* border-left: 1px dotted var(--arroyo-sola-luna-accent-major); */
+}
+
+.workspace-tab-header.is-active {
+}
+.workspace-tab-header.is-active,
+.is-active .workspace-tab-header-inner-title {
+    /* border-right: 1px solid var(--background-primary); */
+    /* color: var(--background-primary); */
+}
+
+.workspace-tab-header.is-active .workspace-tab-header-inner,
+.workspace-tab-header.is-active .workspace-tab-header-inner .svg-icon,
+.workspace-tab-header.is-active .workspace-tab-header-inner-title,
+.is-focused .workspace-tab-header.is-active .workspace-tab-header-inner,
+.is-focused .workspace-tab-header.is-active .workspace-tab-header-inner .svg-icon,
+.is-focused .workspace-tab-header.is-active .workspace-tab-header-inner-title
+{
+    background: var(--arroyo-sola-luna-accent-major) !important;
+    color: var(--background-primary);
+}
+
+
+.workspace-tab-header:hover
+{
+    filter: brightness(110%);
+}
+.workspace-tab-header.is-active:hover
+{
+    filter: brightness(100%);
+}
+
+/* }}} */
+
+/* Stacked tabs (only) {{{ */
+.workspace-tab-container .workspace-tab-header {
+    border: none;
+    /* border: 1px dotted var(--arroyo-sola-luna-accent-major); */
+    /* background: red !important; */
+}
+.workspace-tab-container .workspace-tab-header .workspace-tab-header-inner {
+    background: #40202020;
+    /* background: #40606020; */
+    color: var(--arroyo-sola-luna-accent-major);
+    border-right: 1px dotted var(--arroyo-sola-luna-accent-major);
+    border-left: 1px dotted var(--arroyo-sola-luna-accent-major);
+}
+
+.workspace-tab-container .workspace-tab-header.is-active {
+    border-left: 1px solid var(--background-primary);
+}
+.workspace-tab-container .workspace-tab-header.is-active,
+.workspace-tab-container .is-active .workspace-tab-header-inner-title {
+    /* border-right: 1px solid var(--background-primary); */
+    /* color: var(--background-primary); */
+}
+
+.workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner,
+.workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner .svg-icon,
+.workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner-title,
+.is-focused .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner,
+.is-focused .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner .svg-icon,
+.is-focused .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner-title
+{
+    background: var(--arroyo-sola-luna-accent-major) !important;
+    color: var(--background-primary);
+}
+
+
+/* }}} */
+
+/* Various hovers, actives and other interaction state dynamics {{{ */
+
+.theme-dark .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
+.theme-dark .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
+.theme-dark .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title,
+.theme-dark .is-focused .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
+.theme-dark .is-focused .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
+.theme-dark .is-focused .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title,
+.theme-dark .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
+.theme-dark .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
+.theme-dark .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title,
+.theme-dark .is-focused .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
+.theme-dark .is-focused .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
+.theme-dark .is-focused .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title
+{
+    color: #006699;
+}
+
+.theme-light .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
+.theme-light .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
+.theme-light .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title,
+.theme-light .is-focused .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
+.theme-light .is-focused .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
+.theme-light .is-focused .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title,
+.theme-light .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
+.theme-light .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
+.theme-light .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title,
+.theme-light .is-focused .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
+.theme-light .is-focused .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
+.theme-light .is-focused .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title
+{
+    color: #fff888;
+}
+
+/* .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner, */
+/* .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon, */
+/* .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title, */
+.workspace-tab-container .workspace-tab-header:hover
+{
+    filter: brightness(110%);
+}
+.workspace-tab-container .workspace-tab-header.is-active:hover
+{
+    filter: brightness(100%);
+}
+
+
+/* }}} */
+
+/* }}} */
+
+/*
+ * Callouts {{{
+ */
+
+.callout {
+    --callout-color: 40, 20, 20;
+    line-height: 1.5rem;
+    margin: 0;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    border: solid 0.5px var(--arroyo-sola-luna-accent-major);
+}
+.theme-dark .callout {
+    background: #484848;
+}
+.theme-light .callout {
+    /* background: #ffffff20; */
+    background: #c8c8c0;
+}
+.callout {
+    /* box-shadow: 0 0 2.5rem rgba(0,0,0,0.9) inset; */
+    /* box-shadow: 0 0 4.5rem rgba(0,0,0,0.5) inset; */
+    /* box-shadow: 0.1rem 0.1rem 1rem 1rem rgba(0,0,0,0.1); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px; */
+    /* padding: 0; */
+    padding: 0;
+}
+
+.callout-title {
+    padding: 0;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    background: var(--arroyo-sola-luna-accent-major);
+    padding: 0.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    color: var(--background-primary);
+    /* padding: 0.2rem; */
+}
+
+.theme-light .callout-title {
+}
+.theme-dark .callout-title {
+}
+.callout-icon .svg-icon {
+    color: var(--background-primary);
+}
+.callout-title-inner {
+    color: var(--background-primary);
+}
+
+.callout-title-inner a.internal-link,
+.callout-title-inner a,
+.callout-title-inner a.internal-link:hover,
+.callout-title-inner a:hover
+{
+    color: var(--background-primary);
+}
+.callout-content {
+    padding: 0.8rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    /* border: solid 1px red; */
+}
+
+/* }}} */
+
+/*
+ * Side dock {{{
+ */
+
+.side-dock-actions {
+    border: solid 2px var(--arroyo-sola-luna-accent-major);
+    border-radius: 0.6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* }}} */
+
+
+/*
+ * Ribbon {{{
+ */
+
+.workspace-ribbon .svg-icon {
+    stroke-width: 2px;
+}
+
+/* }}} */
+
+/*
+ * Folder shades {{{
+ */
+.nav-files-container
+.tree-item
+.nav-folder
+.nav-folder-title
+.collapse-icon
+.svg-icon
+{
+    /* --folder-shades-color-01-fg: var(--arroyo-sola-luna-accent-major); */
+    /* --folder-shades-color-02-fg: var(--arroyo-sola-luna-accent-minor) ; */
+    /* --folder-shades-color-01-fg: white; */
+    /* --folder-shades-color-02-fg: white; */
+    color: var(--arroyo-sola-luna-accent-minor) !important;
+    filter: brightness(300%);
+}
+
+.nav-folder:not(.mod-root) .nav-folder-title-content::before {
+  display: inline-block;
+  content: "🖿";
+  margin-right: 5px;
+  vertical-align: text-bottom;
+  height: 15px;
+  width: 15px;
+}
+
+.nav-file:not(.mod-root) .nav-file-title-content::before {
+  display: inline-block;
+  content: "☰";
+  margin-left: 2px;
+  margin-right: 3px;
+  vertical-align: text-bottom;
+  height: 15px;
+  width: 15px;
+}
+
+.nav-folder.mod-root > .nav-folder-children > .nav-folder > .nav-folder-title {
+    margin-top: 4px;
+    background-color: #00000066;
+    /* color: #000000; */
+    border: solid 1px #204040;
+
+}
+
+.nav-folder.mod-root > .nav-folder-children > .nav-folder > .nav-folder-children {
+    /* margin-top: 4px; */
+    background-color: #00000044;
+}
+
+/* }}} */
