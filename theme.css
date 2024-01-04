@@ -5,75 +5,75 @@
 
 :root {
     --icon-color: #ff0000;
-    /* --arroyo-sola-luna-light-accent-major: #805050; */
-    --arroyo-sola-luna-light-accent-major: #805050;
-    /* --arroyo-sola-luna-light-accent-major: #c04000; */
-    /* --arroyo-sola-luna-light-accent-major: #c04000; /1* mahagoney *1/ */
-    /* --arroyo-sola-luna-light-accent-major: #670a0a; /1* mahagoney red *1/ */
-    --arroyo-sola-luna-light-accent-minor: #603030;
-    /* --arroyo-sola-luna-dark-accent-major: #ff9900; */
-    --arroyo-sola-luna-dark-accent-major: #ff9900;
-    --arroyo-sola-luna-dark-accent-major:       #c8bda8;
-    /* --arroyo-sola-luna-accent-major:       #ff9900; */
-    /* --arroyo-sola-luna-accent-major:       #c8bda8; */
+    /* --arroyo-light-accent-major: #805050; */
+    --arroyo-light-accent-major: #805050;
+    /* --arroyo-light-accent-major: #c04000; */
+    /* --arroyo-light-accent-major: #c04000; /1* mahagoney *1/ */
+    /* --arroyo-light-accent-major: #670a0a; /1* mahagoney red *1/ */
+    --arroyo-light-accent-minor: #603030;
+    /* --arroyo-dark-accent-major: #ff9900; */
+    --arroyo-dark-accent-major: #ff9900;
+    --arroyo-dark-accent-major:       #c8bda8;
+    /* --arroyo-accent-major:       #ff9900; */
+    /* --arroyo-accent-major:       #c8bda8; */
 }
 
 /* Dark Scheme Color Definitions {{{1 */
 
 :root
 {
-    --arroyo-sola-luna-dark-bg1                  : #323030; /* background main */
-    --arroyo-sola-luna-dark-fg1                  : #c0b088; /* text */
-    --arroyo-sola-luna-dark-fg1                  : #aaa090; /* text */
-    --arroyo-sola-luna-dark-bg2                  : #4e575f; /* menu background and border */
+    --arroyo-dark-bg1                  : #323030; /* background main */
+    --arroyo-dark-fg1                  : #c0b088; /* text */
+    --arroyo-dark-fg1                  : #aaa090; /* text */
+    --arroyo-dark-bg2                  : #4e575f; /* menu background and border */
 
-    --arroyo-sola-luna-dark-text-normal          : var(--arroyo-sola-luna-dark-fg1); /* text */
-    --arroyo-sola-luna-dark-text-faint           : #809090; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
-    --arroyo-sola-luna-dark-text-muted           : #d5d5c5; /* menu/interface text */
+    --arroyo-dark-text-normal          : var(--arroyo-dark-fg1); /* text */
+    --arroyo-dark-text-faint           : #809090; /* '--text-faint' in main body, stroke, arrow, list, bullet point, etc. */
+    --arroyo-dark-text-muted           : #d5d5c5; /* menu/interface text */
 
-    --arroyo-sola-luna-dark-text-heading-h1      : #587074;
-    --arroyo-sola-luna-dark-text-heading-h2      : #448888;
-    --arroyo-sola-luna-dark-text-heading-h3      : #5b8060;
-    --arroyo-sola-luna-dark-text-heading-h4      : #808060;
-    --arroyo-sola-luna-dark-text-heading-h5      : #707070;
-    --arroyo-sola-luna-dark-text-heading-h6      : #505050;
+    --arroyo-dark-text-heading-h1      : #587074;
+    --arroyo-dark-text-heading-h2      : #448888;
+    --arroyo-dark-text-heading-h3      : #5b8060;
+    --arroyo-dark-text-heading-h4      : #808060;
+    --arroyo-dark-text-heading-h5      : #707070;
+    --arroyo-dark-text-heading-h6      : #505050;
 
-    /* --arroyo-sola-luna-dark-text-heading-h1      : #427b58; */
-    /* --arroyo-sola-luna-dark-text-heading-h2      : #448888; */
-    /* --arroyo-sola-luna-dark-text-heading-h3      : #5b8060; */
-    /* --arroyo-sola-luna-dark-text-heading-h4      : #808060; */
-    /* --arroyo-sola-luna-dark-text-heading-h5      : #667070; */
-    /* --arroyo-sola-luna-dark-text-heading-h6      : #505050; */
+    /* --arroyo-dark-text-heading-h1      : #427b58; */
+    /* --arroyo-dark-text-heading-h2      : #448888; */
+    /* --arroyo-dark-text-heading-h3      : #5b8060; */
+    /* --arroyo-dark-text-heading-h4      : #808060; */
+    /* --arroyo-dark-text-heading-h5      : #667070; */
+    /* --arroyo-dark-text-heading-h6      : #505050; */
 
-    --arroyo-sola-luna-dark-text-highlight-bg    : #555555;
-    --arroyo-sola-luna-dark-text-selection       : #501818;
-    --arroyo-sola-luna-dark-text-highlight-fg    : none;
-    --arroyo-sola-luna-dark-text-accent          : #80b0a8; /* links */
-    --arroyo-sola-luna-dark-text-accent-hover    : #ffff00; /* links */
+    --arroyo-dark-text-highlight-bg    : #555555;
+    --arroyo-dark-text-selection       : #501818;
+    --arroyo-dark-text-highlight-fg    : none;
+    --arroyo-dark-text-accent          : #80b0a8; /* links */
+    --arroyo-dark-text-accent-hover    : #ffff00; /* links */
 
-    --arroyo-sola-luna-dark-code-fg              : #60a8a0;
-    --arroyo-sola-luna-dark-code-bg              : #282424;
+    --arroyo-dark-code-fg              : #60a8a0;
+    --arroyo-dark-code-bg              : #282424;
 
-    --arroyo-sola-luna-dark-tag-color            : #888888;
-    --arroyo-sola-luna-dark-tag-background       : #202020;
-    --arroyo-sola-luna-dark-tag-background-hover : #000000;
+    --arroyo-dark-tag-color            : #888888;
+    --arroyo-dark-tag-background       : #202020;
+    --arroyo-dark-tag-background-hover : #000000;
 
-    --arroyo-sola-luna-dark-checkbox-fg          : var(--arroyo-sola-luna-dark-text-faint);
-    --arroyo-sola-luna-dark-checkbox-done-fg     : var(--arroyo-sola-luna-dark-text-muted);
+    --arroyo-dark-checkbox-fg          : var(--arroyo-dark-text-faint);
+    --arroyo-dark-checkbox-done-fg     : var(--arroyo-dark-text-muted);
 
-    --arroyo-sola-luna-dark-icon-hover           : red;
-    --arroyo-sola-luna-dark-icon-focused         : red;
+    --arroyo-dark-icon-hover           : red;
+    --arroyo-dark-icon-focused         : red;
 
-    --arroyo-sola-luna-dark-frame-accent-bg         : #484c50;
-    --arroyo-sola-luna-dark-heading-accent-bg         : #2a2828;
+    --arroyo-dark-frame-accent-bg         : #484c50;
+    --arroyo-dark-heading-accent-bg         : #2a2828;
 
-    --arroyo-sola-luna-dark-table-row-even-background: #3d3d3d;
-    --arroyo-sola-luna-dark-table-row-odd-background:  #383838;
-    --arroyo-sola-luna-dark-table-row-background-hover: var(--arroyo-sola-luna-dark-text-highlight-bg);
-    --arroyo-sola-luna-dark-table-header-background: #282828;
-    /* --arroyo-sola-luna-dark-table-header-background: var(--arroyo-sola-luna-dark-bg2); */
-    /* --arroyo-sola-luna-dark-table-header-background: #101010; */
-    --arroyo-sola-luna-dark-table-header-background-hover: var(--arroyo-sola-luna-dark-table-header-background);
+    --arroyo-dark-table-row-even-background: #3d3d3d;
+    --arroyo-dark-table-row-odd-background:  #383838;
+    --arroyo-dark-table-row-background-hover: var(--arroyo-dark-text-highlight-bg);
+    --arroyo-dark-table-header-background: #282828;
+    /* --arroyo-dark-table-header-background: var(--arroyo-dark-bg2); */
+    /* --arroyo-dark-table-header-background: #101010; */
+    --arroyo-dark-table-header-background-hover: var(--arroyo-dark-table-header-background);
 }
 
 /* }}}1 */
@@ -82,77 +82,77 @@
 
 .theme-dark
 {
-    --arroyo-sola-luna-accent-major:           var(--arroyo-sola-luna-dark-accent-major);
-    --arroyo-sola-luna-accent-minor:           var(--arroyo-sola-luna-dark-accent-minor);
-    --background-primary:            var(--arroyo-sola-luna-dark-bg1);
-    --background-primary-alt:        var(--arroyo-sola-luna-dark-bg1);
-    --background-secondary:          var(--arroyo-sola-luna-dark-bg2);
-    --background-secondary-alt:      var(--arroyo-sola-luna-dark-bg2);
-    --arroyo-sola-luna-frame-accent-bg:     var(--arroyo-sola-luna-dark-frame-accent-bg);
-    --background-modifier-border:    var(--arroyo-sola-luna-frame-accent-bg);
-    --arroyo-sola-luna-heading-accent-bg: var(--arroyo-sola-luna-dark-heading-accent-bg);
+    --arroyo-accent-major:           var(--arroyo-dark-accent-major);
+    --arroyo-accent-minor:           var(--arroyo-dark-accent-minor);
+    --background-primary:            var(--arroyo-dark-bg1);
+    --background-primary-alt:        var(--arroyo-dark-bg1);
+    --background-secondary:          var(--arroyo-dark-bg2);
+    --background-secondary-alt:      var(--arroyo-dark-bg2);
+    --arroyo-frame-accent-bg:     var(--arroyo-dark-frame-accent-bg);
+    --background-modifier-border:    var(--arroyo-frame-accent-bg);
+    --arroyo-heading-accent-bg: var(--arroyo-dark-heading-accent-bg);
 
 
-    --cursor-line-background:        var(--arroyo-sola-luna-dark-graph-line);
-    /* --divider-color:                 var(--arroyo-sola-luna-dark-graph-line); */
+    --cursor-line-background:        var(--arroyo-dark-graph-line);
+    /* --divider-color:                 var(--arroyo-dark-graph-line); */
 
-    --text-normal:                   var(--arroyo-sola-luna-dark-fg1);
-    --text-faint:                    var(--arroyo-sola-luna-dark-text-faint);
-    --text-muted:                    var(--arroyo-sola-luna-dark-text-muted);
+    --text-normal:                   var(--arroyo-dark-fg1);
+    --text-faint:                    var(--arroyo-dark-text-faint);
+    --text-muted:                    var(--arroyo-dark-text-muted);
 
-    --h1-color:                      var(--arroyo-sola-luna-dark-text-heading-h1);
-    --h2-color:                      var(--arroyo-sola-luna-dark-text-heading-h2);
-    --h3-color:                      var(--arroyo-sola-luna-dark-text-heading-h3);
-    --h4-color:                      var(--arroyo-sola-luna-dark-text-heading-h4);
-    --h5-color:                      var(--arroyo-sola-luna-dark-text-heading-h5);
-    --h6-color:                      var(--arroyo-sola-luna-dark-text-heading-h6);
+    --h1-color:                      var(--arroyo-dark-text-heading-h1);
+    --h2-color:                      var(--arroyo-dark-text-heading-h2);
+    --h3-color:                      var(--arroyo-dark-text-heading-h3);
+    --h4-color:                      var(--arroyo-dark-text-heading-h4);
+    --h5-color:                      var(--arroyo-dark-text-heading-h5);
+    --h6-color:                      var(--arroyo-dark-text-heading-h6);
 
-    --text-highlight-bg:             var(--arroyo-sola-luna-dark-text-highlight-bg);
-    --text-highlight-fg:             var(--arroyo-sola-luna-dark-text-highlight-fg);
+    --text-highlight-bg:             var(--arroyo-dark-text-highlight-bg);
+    --text-highlight-fg:             var(--arroyo-dark-text-highlight-fg);
 
-    --text-accent:                   var(--arroyo-sola-luna-dark-text-accent);
-    --text-accent-hover:             var(--arroyo-sola-luna-dark-text-accent-hover);
+    --text-accent:                   var(--arroyo-dark-text-accent);
+    --text-accent-hover:             var(--arroyo-dark-text-accent-hover);
 
-    --tag-color:                     var(--arroyo-sola-luna-dark-tag-color);
-    --tag-background:                var(--arroyo-sola-luna-dark-tag-background);
-    --tag-background-hover:          var(--arroyo-sola-luna-dark-tag-background-hover);
+    --tag-color:                     var(--arroyo-dark-tag-color);
+    --tag-background:                var(--arroyo-dark-tag-background);
+    --tag-background-hover:          var(--arroyo-dark-tag-background-hover);
 
-    --titlebar-text-color-focused:   var(--arroyo-sola-luna-dark-titlebar-focused-text-fg);
+    --titlebar-text-color-focused:   var(--arroyo-dark-titlebar-focused-text-fg);
 
-    --inline-title-color:            var(--arroyo-sola-luna-dark-inline-title-fg);
+    --inline-title-color:            var(--arroyo-dark-inline-title-fg);
 
     --bold-color:                    var(--text-normal);
     --italic-color:                  var(--text-normal);
 
-    --checkbox-color:                var(--arroyo-sola-luna-dark-checkbox-fg);
-    --checkbox-color-hover:          var(--arroyo-sola-luna-dark-checkbox-fg);
-    --checkbox-border-color:         var(--arroyo-sola-luna-dark-checkbox-fg);
-    --checkbox-border-color-hover:   var(--arroyo-sola-luna-dark-checkbox-fg);
-    --checklist-done-color:          var(--arroyo-sola-luna-dark-checkbox-donoe-fg);
+    --checkbox-color:                var(--arroyo-dark-checkbox-fg);
+    --checkbox-color-hover:          var(--arroyo-dark-checkbox-fg);
+    --checkbox-border-color:         var(--arroyo-dark-checkbox-fg);
+    --checkbox-border-color-hover:   var(--arroyo-dark-checkbox-fg);
+    --checklist-done-color:          var(--arroyo-dark-checkbox-donoe-fg);
 
-    --table-header-background:       var(--arroyo-sola-luna-dark-table-header-background);
-    --table-row-even-background:          var(--arroyo-sola-luna-dark-table-row-even-background);
-    --table-row-odd-background:          var(--arroyo-sola-luna-dark-table-row-odd-background);
+    --table-header-background:       var(--arroyo-dark-table-header-background);
+    --table-row-even-background:          var(--arroyo-dark-table-row-even-background);
+    --table-row-odd-background:          var(--arroyo-dark-table-row-odd-background);
 
-    --text-selection:                var(--arroyo-sola-luna-dark-text-selection);
+    --text-selection:                var(--arroyo-dark-text-selection);
 
-    --code-normal:                   var(--arroyo-sola-luna-dark-code-fg);
-    --code-background:               var(--arroyo-sola-luna-dark-code-bg);
+    --code-normal:                   var(--arroyo-dark-code-fg);
+    --code-background:               var(--arroyo-dark-code-bg);
 
-    --icon-color-hover:              var(--arroyo-sola-luna-dark-item-hover);
-    --icon-color-focused:            var(--arroyo-sola-luna-dark-item-focused);
+    --icon-color-hover:              var(--arroyo-dark-item-hover);
+    --icon-color-focused:            var(--arroyo-dark-item-focused);
 
-    --nav-item-color-hover:          var(--arroyo-sola-luna-dark-nav-item-active);
-    --nav-item-color-active:         var(--arroyo-sola-luna-dark-nav-item-active);
-    --nav-file-tag:                  var(--arroyo-sola-luna-dark-nav-file-tag);
+    --nav-item-color-hover:          var(--arroyo-dark-nav-item-active);
+    --nav-item-color-active:         var(--arroyo-dark-nav-item-active);
+    --nav-file-tag:                  var(--arroyo-dark-nav-file-tag);
 
-    --graph-line:                    var(--arroyo-sola-luna-dark-graph-line);
-    --graph-node:                    var(--arroyo-sola-luna-dark-graph-node);
-    --graph-node-tag:                var(--arroyo-sola-luna-dark-graph-node-tag);
-    --graph-node-attachment:         var(--arroyo-sola-luna-dark-graph-node-attachement);
+    --graph-line:                    var(--arroyo-dark-graph-line);
+    --graph-node:                    var(--arroyo-dark-graph-node);
+    --graph-node-tag:                var(--arroyo-dark-graph-node-tag);
+    --graph-node-attachment:         var(--arroyo-dark-graph-node-attachement);
 
-    --tab-text-color-focused-active:         var(--arroyo-sola-luna-dark-tab-focused-active-fg);
-    --tab-text-color-focused-active-current: var(--arroyo-sola-luna-dark-tab-focused-active-current-fg);
+    --tab-text-color-focused-active:         var(--arroyo-dark-tab-focused-active-fg);
+    --tab-text-color-focused-active-current: var(--arroyo-dark-tab-focused-active-current-fg);
 
     /* --background-modifier-border: #f2e5bc;*/
     /* --background-modifier-form-field: rgba(0, 0, 0, 0.2);*/
@@ -171,99 +171,99 @@
 
 :root
 {
-    /* --arroyo-sola-luna-accent-major:                        #663333; */
-    /* --arroyo-sola-luna-accent-major:                        #604040; */
-    /* --arroyo-sola-luna-accent-major:                        #583838; */
-    --arroyo-sola-luna-light-bg1                           : #c4b4a8; /* background main */
-    --arroyo-sola-luna-light-fg1                           : #203038; /* text */
-    /* --arroyo-sola-luna-light-bg2                           : #446666; /1* menu background and border *1/ */
-    /* --arroyo-sola-luna-light-bg2                           : #668890; /1* menu background and border *1/ */
-    /* --arroyo-sola-luna-light-bg2                           : #206070; /1* menu background and border *1/ */
-    /* --arroyo-sola-luna-light-bg2                           : #608080; /1* menu background and border *1/ */
-    /* --arroyo-sola-luna-light-bg2                           : #608080; /1* menu background and border *1/ */
-    /* --arroyo-sola-luna-light-bg2                           : #608080; /1* menu background and border *1/ */
-    /* --arroyo-sola-luna-light-bg2                           : #809090; /1* menu background and border *1/ */
-    /* --arroyo-sola-luna-light-bg2                           : #809890; /1* menu background and border *1/ */
-    /* --arroyo-sola-luna-light-bg2                           : #688888; /1* menu background and border *1/ */
-    /* --arroyo-sola-luna-light-bg2                           : #709090; /1* menu background and border *1/ */
-    /* --arroyo-sola-luna-light-bg2                           : #609090; /1* menu background and border *1/ */
-    --arroyo-sola-luna-light-bg2                           : #709090; /* menu background and border */
-    /* --arroyo-sola-luna-light-bg2                           : #608888; /1* menu background and border *1/ */
-    /* --arroyo-sola-luna-light-bg2                           : #509090; /1* menu background and border *1/ */
-    /* --arroyo-sola-luna-light-bg2                           : #409090; /1* menu background and border *1/ */
-    /* --arroyo-sola-luna-light-bg2                           : #306070; /1* menu background and border *1/ */
+    /* --arroyo-accent-major:                        #663333; */
+    /* --arroyo-accent-major:                        #604040; */
+    /* --arroyo-accent-major:                        #583838; */
+    --arroyo-light-bg1                           : #c4b4a8; /* background main */
+    --arroyo-light-fg1                           : #203038; /* text */
+    /* --arroyo-light-bg2                           : #446666; /1* menu background and border *1/ */
+    /* --arroyo-light-bg2                           : #668890; /1* menu background and border *1/ */
+    /* --arroyo-light-bg2                           : #206070; /1* menu background and border *1/ */
+    /* --arroyo-light-bg2                           : #608080; /1* menu background and border *1/ */
+    /* --arroyo-light-bg2                           : #608080; /1* menu background and border *1/ */
+    /* --arroyo-light-bg2                           : #608080; /1* menu background and border *1/ */
+    /* --arroyo-light-bg2                           : #809090; /1* menu background and border *1/ */
+    /* --arroyo-light-bg2                           : #809890; /1* menu background and border *1/ */
+    /* --arroyo-light-bg2                           : #688888; /1* menu background and border *1/ */
+    /* --arroyo-light-bg2                           : #709090; /1* menu background and border *1/ */
+    /* --arroyo-light-bg2                           : #609090; /1* menu background and border *1/ */
+    --arroyo-light-bg2                           : #709090; /* menu background and border */
+    /* --arroyo-light-bg2                           : #608888; /1* menu background and border *1/ */
+    /* --arroyo-light-bg2                           : #509090; /1* menu background and border *1/ */
+    /* --arroyo-light-bg2                           : #409090; /1* menu background and border *1/ */
+    /* --arroyo-light-bg2                           : #306070; /1* menu background and border *1/ */
 
-    --arroyo-sola-luna-light-text-normal                   : var(--arroyo-sola-luna-light-fg1); /* text */
+    --arroyo-light-text-normal                   : var(--arroyo-light-fg1); /* text */
 
-    --arroyo-sola-luna-light-text-heading-fg               : var(--arroyo-sola-luna-light-bg2);
+    --arroyo-light-text-heading-fg               : var(--arroyo-light-bg2);
 
-    /* --arroyo-sola-luna-light-text-heading-h1               : #882828; */
-    /* --arroyo-sola-luna-light-text-heading-h2               : #004400; */
-    /* --arroyo-sola-luna-light-text-heading-h3               : #994400; */
-    /* --arroyo-sola-luna-light-text-heading-h4               : #006699; */
-    /* --arroyo-sola-luna-light-text-heading-h5               : #006600; */
-    /* --arroyo-sola-luna-light-text-heading-h6               : #880044; */
+    /* --arroyo-light-text-heading-h1               : #882828; */
+    /* --arroyo-light-text-heading-h2               : #004400; */
+    /* --arroyo-light-text-heading-h3               : #994400; */
+    /* --arroyo-light-text-heading-h4               : #006699; */
+    /* --arroyo-light-text-heading-h5               : #006600; */
+    /* --arroyo-light-text-heading-h6               : #880044; */
 
-    /* --arroyo-sola-luna-light-text-heading-h1               : #600066; */
-    --arroyo-sola-luna-light-text-heading-h1               : #880000;
-    --arroyo-sola-luna-light-text-heading-h2               : #206040;
-    --arroyo-sola-luna-light-text-heading-h3               : #884400;
-    /* --arroyo-sola-luna-light-text-heading-h4               : #662266; */
-    --arroyo-sola-luna-light-text-heading-h4               : #004466;
-    /* --arroyo-sola-luna-light-text-heading-h4               : #005566; */
-    --arroyo-sola-luna-light-text-heading-h5               : #004400;
-    --arroyo-sola-luna-light-text-heading-h6               : #008888;
+    /* --arroyo-light-text-heading-h1               : #600066; */
+    --arroyo-light-text-heading-h1               : #880000;
+    --arroyo-light-text-heading-h2               : #206040;
+    --arroyo-light-text-heading-h3               : #884400;
+    /* --arroyo-light-text-heading-h4               : #662266; */
+    --arroyo-light-text-heading-h4               : #004466;
+    /* --arroyo-light-text-heading-h4               : #005566; */
+    --arroyo-light-text-heading-h5               : #004400;
+    --arroyo-light-text-heading-h6               : #008888;
 
-    /* --arroyo-sola-luna-light-text-heading-h1               : #206070; */
-    /* --arroyo-sola-luna-light-text-heading-h2               : #206070; */
-    /* --arroyo-sola-luna-light-text-heading-h3               : #206070; */
-    /* --arroyo-sola-luna-light-text-heading-h4               : #206070; */
-    /* --arroyo-sola-luna-light-text-heading-h5               : #206070; */
-    /* --arroyo-sola-luna-light-text-heading-h6               : #206070; */
+    /* --arroyo-light-text-heading-h1               : #206070; */
+    /* --arroyo-light-text-heading-h2               : #206070; */
+    /* --arroyo-light-text-heading-h3               : #206070; */
+    /* --arroyo-light-text-heading-h4               : #206070; */
+    /* --arroyo-light-text-heading-h5               : #206070; */
+    /* --arroyo-light-text-heading-h6               : #206070; */
 
-    --arroyo-sola-luna-light-text-highlight-bg             : #00888844;
-    --arroyo-sola-luna-light-text-highlight-fg             : none;
-    /* --arroyo-sola-luna-light-text-accent                   : #014b70; /1* links *1/ */
-    --arroyo-sola-luna-light-text-accent                   : #006644; /* links */
-    --arroyo-sola-luna-light-text-accent-hover             : #000088; /* links */
+    --arroyo-light-text-highlight-bg             : #00888844;
+    --arroyo-light-text-highlight-fg             : none;
+    /* --arroyo-light-text-accent                   : #014b70; /1* links *1/ */
+    --arroyo-light-text-accent                   : #006644; /* links */
+    --arroyo-light-text-accent-hover             : #000088; /* links */
 
-    --arroyo-sola-luna-light-text-selection-bg             : #0088ff44;
-    --arroyo-sola-luna-light-inline-title-fg               : none; /* set below */
+    --arroyo-light-text-selection-bg             : #0088ff44;
+    --arroyo-light-inline-title-fg               : none; /* set below */
 
-    --arroyo-sola-luna-light-tab-focused-active-fg         : #fff0a0;
-    --arroyo-sola-luna-light-tab-focused-active-current-fg : var(--arroyo-sola-luna-light-bg2);
+    --arroyo-light-tab-focused-active-fg         : #fff0a0;
+    --arroyo-light-tab-focused-active-current-fg : var(--arroyo-light-bg2);
 
-    --arroyo-sola-luna-light-titlebar-focused-text-fg      : #ffffff;
+    --arroyo-light-titlebar-focused-text-fg      : #ffffff;
 
-    --arroyo-sola-luna-light-icon-hover                    : red;
-    --arroyo-sola-luna-light-icon-focused                  : red;
+    --arroyo-light-icon-hover                    : red;
+    --arroyo-light-icon-focused                  : red;
 
-    /* --arroyo-sola-luna-light-text-table-header-bg          : #ebcb8b10; */
-    /* --arroyo-sola-luna-light-text-table-row-bg             : #ebcb8b10; */
-    /* --arroyo-sola-luna-light-table-header-background       : #28282844; */
-    /* --arroyo-sola-luna-light-table-row-odd-background      : #ffffff18; */
-    /* --arroyo-sola-luna-light-table-row-even-background     : #66666618; */
-    /* --arroyo-sola-luna-light-table-row-background-hover: var(--arroyo-sola-luna-light-text-highlight-bg); */
-    /* --arroyo-sola-luna-light-table-header-background-hover: var(--arroyo-sola-luna-light-table-header-background); */
-    /* --arroyo-sola-luna-light-table-header-background       : peru; */
-    --arroyo-sola-luna-light-table-header-background       : #00808040;
-    --arroyo-sola-luna-light-table-row-odd-background      : #eeeedd30;
-    --arroyo-sola-luna-light-table-row-even-background     : #aaccbb60;
-    /* --arroyo-sola-luna-light-table-row-background-hover: var(--arroyo-sola-luna-light-text-highlight-bg); */
-    --arroyo-sola-luna-light-table-row-background-hover: #ffffff88;
-    /* --arroyo-sola-luna-light-table-header-background-hover: var(--arroyo-sola-luna-light-table-header-background); */
+    /* --arroyo-light-text-table-header-bg          : #ebcb8b10; */
+    /* --arroyo-light-text-table-row-bg             : #ebcb8b10; */
+    /* --arroyo-light-table-header-background       : #28282844; */
+    /* --arroyo-light-table-row-odd-background      : #ffffff18; */
+    /* --arroyo-light-table-row-even-background     : #66666618; */
+    /* --arroyo-light-table-row-background-hover: var(--arroyo-light-text-highlight-bg); */
+    /* --arroyo-light-table-header-background-hover: var(--arroyo-light-table-header-background); */
+    /* --arroyo-light-table-header-background       : peru; */
+    --arroyo-light-table-header-background       : #00808040;
+    --arroyo-light-table-row-odd-background      : #eeeedd30;
+    --arroyo-light-table-row-even-background     : #aaccbb60;
+    /* --arroyo-light-table-row-background-hover: var(--arroyo-light-text-highlight-bg); */
+    --arroyo-light-table-row-background-hover: #ffffff88;
+    /* --arroyo-light-table-header-background-hover: var(--arroyo-light-table-header-background); */
 
-    --arroyo-sola-luna-light-nav-item-active               : #bbb098;
-    --arroyo-sola-luna-light-nav-item-hover                : #bcb290;
-    --arroyo-sola-luna-light-graph-line                    : #585858; /* graph line */
-    --arroyo-sola-luna-light-graph-node                    : #585858; /* graph line */
-    --arroyo-sola-luna-light-graph-node-tag                : #585858; /* graph line */
-    --arroyo-sola-luna-light-graph-node-attachment         : #585858; /* graph line */
+    --arroyo-light-nav-item-active               : #bbb098;
+    --arroyo-light-nav-item-hover                : #bcb290;
+    --arroyo-light-graph-line                    : #585858; /* graph line */
+    --arroyo-light-graph-node                    : #585858; /* graph line */
+    --arroyo-light-graph-node-tag                : #585858; /* graph line */
+    --arroyo-light-graph-node-attachment         : #585858; /* graph line */
 
-    --arroyo-sola-luna-light-checkbox-fg                   : var(--arroyo-sola-luna-light-text-faint);
-    --arroyo-sola-luna-light-checkbox-done-fg              : var(--arroyo-sola-luna-light-text-muted);
+    --arroyo-light-checkbox-fg                   : var(--arroyo-light-text-faint);
+    --arroyo-light-checkbox-done-fg              : var(--arroyo-light-text-muted);
 
-    --arroyo-sola-luna-light-frame-accent-bg         : #484c50;
+    --arroyo-light-frame-accent-bg         : #484c50;
 }
 
 /* }}}1 */
@@ -272,46 +272,46 @@
 
 .theme-light
 {
-    --arroyo-sola-luna-accent-major:           var(--arroyo-sola-luna-light-accent-major);
-    --arroyo-sola-luna-accent-minor:           var(--arroyo-sola-luna-light-accent-minor);
-    --background-primary:            var(--arroyo-sola-luna-light-bg1);
-    --background-primary-alt:        var(--arroyo-sola-luna-light-bg1);
-    --background-secondary:          var(--arroyo-sola-luna-light-bg2);
+    --arroyo-accent-major:           var(--arroyo-light-accent-major);
+    --arroyo-accent-minor:           var(--arroyo-light-accent-minor);
+    --background-primary:            var(--arroyo-light-bg1);
+    --background-primary-alt:        var(--arroyo-light-bg1);
+    --background-secondary:          var(--arroyo-light-bg2);
     /* --background-secondary:          #608078; */
     /* --background-secondary:          #607880; */
     /* --background-secondary:          #607878; */
     /* --background-secondary:          #608078; */
     --maya-earth-green-background-secondary:          #78866B;
-    --background-secondary-alt:      var(--arroyo-sola-luna-light-bg2);
-    --background-modifier-border:    var(--arroyo-sola-luna-light-bg2);
+    --background-secondary-alt:      var(--arroyo-light-bg2);
+    --background-modifier-border:    var(--arroyo-light-bg2);
 
 
 
 
 
-    --cursor-line-background:        var(--arroyo-sola-luna-light-graph-line);
-    --text-normal:                   var(--arroyo-sola-luna-light-fg1);
-    --text-faint:                    var(--arroyo-sola-luna-accent-major);
-    --text-muted:                    var(--arroyo-sola-luna-accent-minor);
+    --cursor-line-background:        var(--arroyo-light-graph-line);
+    --text-normal:                   var(--arroyo-light-fg1);
+    --text-faint:                    var(--arroyo-accent-major);
+    --text-muted:                    var(--arroyo-accent-minor);
 
-    --h1-color:                      var(--arroyo-sola-luna-light-text-heading-h1);
-    --h2-color:                      var(--arroyo-sola-luna-light-text-heading-h2);
-    --h3-color:                      var(--arroyo-sola-luna-light-text-heading-h3);
-    --h4-color:                      var(--arroyo-sola-luna-light-text-heading-h4);
-    --h5-color:                      var(--arroyo-sola-luna-light-text-heading-h5);
-    --h6-color:                      var(--arroyo-sola-luna-light-text-heading-h6);
+    --h1-color:                      var(--arroyo-light-text-heading-h1);
+    --h2-color:                      var(--arroyo-light-text-heading-h2);
+    --h3-color:                      var(--arroyo-light-text-heading-h3);
+    --h4-color:                      var(--arroyo-light-text-heading-h4);
+    --h5-color:                      var(--arroyo-light-text-heading-h5);
+    --h6-color:                      var(--arroyo-light-text-heading-h6);
 
-    --text-highlight-bg:             var(--arroyo-sola-luna-light-text-highlight-bg);
-    --text-highlight-fg:             var(--arroyo-sola-luna-light-text-highlight-fg);
+    --text-highlight-bg:             var(--arroyo-light-text-highlight-bg);
+    --text-highlight-fg:             var(--arroyo-light-text-highlight-fg);
 
-    --text-accent:                   var(--arroyo-sola-luna-light-text-accent);
-    --text-accent-hover:             var(--arroyo-sola-luna-light-text-accent-hover);
+    --text-accent:                   var(--arroyo-light-text-accent);
+    --text-accent-hover:             var(--arroyo-light-text-accent-hover);
 
-    --tag-color:                     var(--arroyo-sola-luna-light-tag-color);
-    --tag-background:                var(--arroyo-sola-luna-light-tag-background);
-    --tag-background-hover:          var(--arroyo-sola-luna-light-tag-background-hover);
+    --tag-color:                     var(--arroyo-light-tag-color);
+    --tag-background:                var(--arroyo-light-tag-background);
+    --tag-background-hover:          var(--arroyo-light-tag-background-hover);
 
-    --titlebar-text-color-focused:   var(--arroyo-sola-luna-light-titlebar-focused-text-fg);
+    --titlebar-text-color-focused:   var(--arroyo-light-titlebar-focused-text-fg);
 
     --inline-title-color:            #440000;
 
@@ -327,13 +327,13 @@
     --checkbox-border-color-hover:   var(--text-muted);
     --checklist-done-color:          var(--text-muted);
 
-    --table-header-background:       var(--arroyo-sola-luna-light-table-header-background);
-    /* --table-header-background-hover: var(--arroyo-sola-luna-light-table-header-background-hover); */
-    --table-row-even-background:          var(--arroyo-sola-luna-light-table-row-even-background);
-    --table-row-odd-background:          var(--arroyo-sola-luna-light-table-row-odd-background);
-    /* --table-row-background-hover:    var(--arroyo-sola-luna-light-table-row-background-hover); */
+    --table-header-background:       var(--arroyo-light-table-header-background);
+    /* --table-header-background-hover: var(--arroyo-light-table-header-background-hover); */
+    --table-row-even-background:          var(--arroyo-light-table-row-even-background);
+    --table-row-odd-background:          var(--arroyo-light-table-row-odd-background);
+    /* --table-row-background-hover:    var(--arroyo-light-table-row-background-hover); */
 
-    --text-selection:                var(--arroyo-sola-luna-light-text-selection-bg);
+    --text-selection:                var(--arroyo-light-text-selection-bg);
 
     --code-normal:     var(--text-normal);
     --code-background: #ffffff28;
@@ -356,22 +356,22 @@
     /* --code-tag:      #fc4384; */
     /* --code-value:    #a06fca; */
 
-    --icon-color:                    var(--arroyo-sola-luna-accent-minor);
+    --icon-color:                    var(--arroyo-accent-minor);
     /* --icon-color:                    #ff9900; */
 
-    --nav-item-color-hover:          var(--arroyo-sola-luna-light-nav-item-hover);
-    --nav-item-color-active:         var(--arroyo-sola-luna-light-nav-item-active);
-    --nav-file-tag:                  var(--arroyo-sola-luna-light-nav-file-tag);
+    --nav-item-color-hover:          var(--arroyo-light-nav-item-hover);
+    --nav-item-color-active:         var(--arroyo-light-nav-item-active);
+    --nav-file-tag:                  var(--arroyo-light-nav-file-tag);
 
-    --graph-line:                    var(--arroyo-sola-luna-light-graph-line);
-    --graph-node:                    var(--arroyo-sola-luna-light-graph-node);
-    --graph-node-tag:                var(--arroyo-sola-luna-light-graph-node-tag);
-    --graph-node-attachment:         var(--arroyo-sola-luna-light-graph-node-attachement);
+    --graph-line:                    var(--arroyo-light-graph-line);
+    --graph-node:                    var(--arroyo-light-graph-node);
+    --graph-node-tag:                var(--arroyo-light-graph-node-tag);
+    --graph-node-attachment:         var(--arroyo-light-graph-node-attachement);
 
-    --tab-text-color-focused-active:         var(--arroyo-sola-luna-light-tab-focused-active-fg);
-    --tab-text-color-focused-active-current: var(--arroyo-sola-luna-light-tab-focused-active-current-fg);
-    --arroyo-sola-luna-frame-accent-bg: var(--arroyo-sola-luna-light-frame-accent-bg);
-    --arroyo-sola-luna-heading-accent-bg: var(--arroyo-sola-luna-light-heading-accent-bg);
+    --tab-text-color-focused-active:         var(--arroyo-light-tab-focused-active-fg);
+    --tab-text-color-focused-active-current: var(--arroyo-light-tab-focused-active-current-fg);
+    --arroyo-frame-accent-bg: var(--arroyo-light-frame-accent-bg);
+    --arroyo-heading-accent-bg: var(--arroyo-light-heading-accent-bg);
     /* --background-modifier-border: #f2e5bc; */
 }
 
@@ -406,7 +406,7 @@ body
     /* --tag-padding-y:                  .2em; */
     /* --tag-radius:                     .5em; */
 
-    --icon-color:                    var(--arroyo-sola-luna-accent-minor);
+    --icon-color:                    var(--arroyo-accent-minor);
     --code-radius: 1rem;
 }
 
@@ -593,10 +593,10 @@ body
 /* } */
 
 /* .workspace-tabs .workspace-leaf.mod-active { */
-    /* border: solid 2px var(--arroyo-sola-luna-frame-accent-bg); */
+    /* border: solid 2px var(--arroyo-frame-accent-bg); */
 /* } */
 /* .svelte-ldfkf { */
-/*     border-top: solid 2px var(--arroyo-sola-luna-frame-accent-bg); */
+/*     border-top: solid 2px var(--arroyo-frame-accent-bg); */
 /* } */
 
 /* }}}2 */
@@ -658,7 +658,7 @@ body
 /* .nav-header, */
 /* .workspace-tabs .workspace-tab-header-container { */
 /*   border: solid 1px red; */
-/*   background: var(--arroyo-sola-luna-frame-accent-bg); */
+/*   background: var(--arroyo-frame-accent-bg); */
 /* } */
 
 /* .workspace-tabs.mod-top .workspace-tab-header-container { */
@@ -1047,7 +1047,7 @@ a {
 }
 
 .inline-title {
-    background: var(--arroyo-sola-luna-accent-major);
+    background: var(--arroyo-accent-major);
     color: var(--background-primary);
     border: solid 0.5rem var(--background-primary);
 }
@@ -1098,9 +1098,9 @@ a {
 {
     /* background: #00000024 !important; */
     /* background: #ffffff20 !important; */
-    /* border: dashed 1px var(--arroyo-sola-luna-accent-major) !important; */
+    /* border: dashed 1px var(--arroyo-accent-major) !important; */
     /* background: #ffffff20 !important; */
-    /* border: solid 1px var(--arroyo-sola-luna-accent-major) !important; */
+    /* border: solid 1px var(--arroyo-accent-major) !important; */
     box-shadow: 0 0 2.5rem rgba(0,0,0,0.9) inset;
     border-radius: 2.5rem;
 }
@@ -1112,8 +1112,8 @@ a {
  */
 
 /* https://docs.obsidian.md/Reference/CSS+variables/Editor/Code */
-/* --code-normal:                   var(--arroyo-sola-luna-light-code-fg); */
-/* --code-background:               var(--arroyo-sola-luna-light-code-bg); */
+/* --code-normal:                   var(--arroyo-light-code-fg); */
+/* --code-background:               var(--arroyo-light-code-bg); */
 
 
 
@@ -1164,13 +1164,13 @@ HyperMD-codeblock.cm-line {
 
 .workspace-tab-header {
     background: var(--background-primary);
-    border: solid 2px var(--arroyo-sola-luna-accent-major);
+    border: solid 2px var(--arroyo-accent-major);
 }
 
 .workspace-tab-header-inner,
 .workspace-tab-header-inner .svg-icon
 {
-    color: var(--arroyo-sola-luna-accent-major);
+    color: var(--arroyo-accent-major);
     font-weight: 700;
 }
 
@@ -1179,7 +1179,7 @@ HyperMD-codeblock.cm-line {
 /* Sidebar without non-stacked tabs {{{ */
 .mod-left-split .workspace-tab-header,
 .mod-right-split .workspace-tab-header {
-    border: solid 2px var(--arroyo-sola-luna-accent-major);
+    border: solid 2px var(--arroyo-accent-major);
 }
 .mod-left-split .workspace-tab-header,
 .mod-left-split .workspace-tab-header-inner,
@@ -1190,7 +1190,7 @@ HyperMD-codeblock.cm-line {
 .mod-right-split .workspace-tab-header-inner .svg-icon,
 .mod-right-split .workspace-tab-header-inner-title
 {
-    /* color: var(--arroyo-sola-luna-accent-major); */
+    /* color: var(--arroyo-accent-major); */
 }
 .mod-left-split .is-active .workspace-tab-header,
 .mod-right-split .is-active .workspace-tab-header {
@@ -1198,7 +1198,7 @@ HyperMD-codeblock.cm-line {
 
 .mod-left-split .is-active .workspace-tab-header-inner,
 .mod-right-split .is-active .workspace-tab-header-inner {
-    border-bottom: solid 2px var(--arroyo-sola-luna-accent-major);
+    border-bottom: solid 2px var(--arroyo-accent-major);
 }
 
 .mod-left-split .is-active .workspace-tab-header-inner .svg-icon,
@@ -1230,15 +1230,15 @@ HyperMD-codeblock.cm-line {
 
 .workspace-tab-header {
     border: none;
-    /* border: 1px dotted var(--arroyo-sola-luna-accent-major); */
+    /* border: 1px dotted var(--arroyo-accent-major); */
     /* background: red !important; */
 }
 .workspace-tab-header .workspace-tab-header-inner {
     background: #40606040;
     background: #40202020;
-    color: var(--arroyo-sola-luna-accent-major);
-    /* border-bottom: 2px solid var(--arroyo-sola-luna-accent-major); */
-    /* border-left: 1px dotted var(--arroyo-sola-luna-accent-major); */
+    color: var(--arroyo-accent-major);
+    /* border-bottom: 2px solid var(--arroyo-accent-major); */
+    /* border-left: 1px dotted var(--arroyo-accent-major); */
 }
 
 .workspace-tab-header.is-active {
@@ -1256,7 +1256,7 @@ HyperMD-codeblock.cm-line {
 .is-focused .workspace-tab-header.is-active .workspace-tab-header-inner .svg-icon,
 .is-focused .workspace-tab-header.is-active .workspace-tab-header-inner-title
 {
-    background: var(--arroyo-sola-luna-accent-major) !important;
+    background: var(--arroyo-accent-major) !important;
     color: var(--background-primary);
 }
 
@@ -1275,15 +1275,15 @@ HyperMD-codeblock.cm-line {
 /* Stacked tabs (only) {{{ */
 .workspace-tab-container .workspace-tab-header {
     border: none;
-    /* border: 1px dotted var(--arroyo-sola-luna-accent-major); */
+    /* border: 1px dotted var(--arroyo-accent-major); */
     /* background: red !important; */
 }
 .workspace-tab-container .workspace-tab-header .workspace-tab-header-inner {
     background: #40202020;
     /* background: #40606020; */
-    color: var(--arroyo-sola-luna-accent-major);
-    border-right: 1px dotted var(--arroyo-sola-luna-accent-major);
-    border-left: 1px dotted var(--arroyo-sola-luna-accent-major);
+    color: var(--arroyo-accent-major);
+    border-right: 1px dotted var(--arroyo-accent-major);
+    border-left: 1px dotted var(--arroyo-accent-major);
 }
 
 .workspace-tab-container .workspace-tab-header.is-active {
@@ -1302,7 +1302,7 @@ HyperMD-codeblock.cm-line {
 .is-focused .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner .svg-icon,
 .is-focused .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner-title
 {
-    background: var(--arroyo-sola-luna-accent-major) !important;
+    background: var(--arroyo-accent-major) !important;
     color: var(--background-primary);
 }
 
@@ -1373,7 +1373,7 @@ HyperMD-codeblock.cm-line {
     margin-bottom: 2rem;
     padding: 1rem;
     border-radius: 0.6rem;
-    border: solid 0.5px var(--arroyo-sola-luna-accent-major);
+    border: solid 0.5px var(--arroyo-accent-major);
 }
 .theme-dark .callout {
     background: #484848;
@@ -1398,7 +1398,7 @@ HyperMD-codeblock.cm-line {
     padding: 0;
     padding-left: 0.8rem;
     padding-right: 0.8rem;
-    background: var(--arroyo-sola-luna-accent-major);
+    background: var(--arroyo-accent-major);
     padding: 0.5rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     color: var(--background-primary);
@@ -1436,7 +1436,7 @@ HyperMD-codeblock.cm-line {
  */
 
 .side-dock-actions {
-    border: solid 2px var(--arroyo-sola-luna-accent-major);
+    border: solid 2px var(--arroyo-accent-major);
     border-radius: 0.6rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -1465,11 +1465,11 @@ HyperMD-codeblock.cm-line {
 .collapse-icon
 .svg-icon
 {
-    /* --folder-shades-color-01-fg: var(--arroyo-sola-luna-accent-major); */
-    /* --folder-shades-color-02-fg: var(--arroyo-sola-luna-accent-minor) ; */
+    /* --folder-shades-color-01-fg: var(--arroyo-accent-major); */
+    /* --folder-shades-color-02-fg: var(--arroyo-accent-minor) ; */
     /* --folder-shades-color-01-fg: white; */
     /* --folder-shades-color-02-fg: white; */
-    color: var(--arroyo-sola-luna-accent-minor) !important;
+    color: var(--arroyo-accent-minor) !important;
     filter: brightness(300%);
 }
 
