@@ -1526,11 +1526,9 @@ h1, h2, h3, h4, h5, h6,
 /* } */
 h2:before {
     content: '⫼⫼'     "\0000a0";
-    /* content: '≣'     "\0000a0"; */
 }
 h3:before {
     content: '⫼⫼⫼'    "\0000a0";
-    /* content: '≣≣'    "\0000a0"; */
 }
 h4:before {
     content: '⫼⫼⫼⫼'   "\0000a0";
