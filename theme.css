@@ -1134,19 +1134,19 @@ a {
 /* Reading mode */
 .theme-dark .markdown-preview-view
 {
-    background: #00000020 !important;
-    filter: contrast(120%);
+    /* background: #00000020 !important; */
+    /* filter: contrast(120%); */
 }
 .theme-light .markdown-preview-view
 {
-    background: #ffffff20 !important;
-    filter: contrast(120%);
+    /* filter: contrast(120%); */
 }
 
 /* Source and live preview */
 .markdown-source-view
 {
     /* background: #ffffff48 !important; */
+    /* --primary-background: #ffffff48 !important; */
     /* border: dashed 2px var(--background-secondary) !important; */
     /* border: solid 1px var(--background-secondary) !important; */
     margin-right: 0.5rem;
