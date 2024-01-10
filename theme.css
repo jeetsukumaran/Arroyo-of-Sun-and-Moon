@@ -491,6 +491,44 @@ body
 
 /* }}} */
 
+/* Frontmatter/Properties {{{ */
+
+/* YAML frontmatter outer container in reading mode */
+
+.theme-light .metadata-container {
+    background: var(--background-primary);
+    filter: brightness(96%);
+    border-radius: 0.6rem;
+}
+.theme-dark .metadata-container {
+    filter: brightness(110%);
+}
+
+.metadata-properties-heading {
+    width: 100%;
+}
+
+.metadata-properties-heading .collapse-indicator
+{
+    opacity: 1.0;
+}
+
+.metadata-properties-title {
+    font-size: 0.8rem;
+    font-family: monospace;
+    /* font-weight: 600; */
+    /* font-style: italic; */
+    /* font-variant: small-caps; */
+}
+
+.multi-select-pill-content {
+    line-height: 1rem;
+}
+.multi-select-pill-remove-button {
+}
+
+/* }}} */
+
 /* Special Overrides {{{1 */
 
 /* Interface {{{2 */
@@ -851,7 +889,7 @@ body
 }
 /* }}}2 */
 
-/* tables {{{2 */
+/* tables {{{ */
 .markdown-rendered tbody tr:nth-child(even)
 {
     background-color: var(--table-row-even-background) !important;
@@ -862,63 +900,9 @@ body
     background-color: var(--table-row-odd-background) !important;
 }
 
-/* YAML frontmatter outer container in reading mode */
-.metadata-container {
-}
-/* YAML frontmatter inner content container in reading mode */
-.metadata-content,
-/* Frontmatter property rows in edit/preview mode */
-.metadata-property {
-}
+/* }}} */
 
-/* YAML frontmatter container in preview mode */
-.frontmatter-container {
-}
-
-/* YAML frontmatter container title in editor mode */
-span.cm-meta.cm-hmd-frontmatter,
-span.cm-hmd-frontmatter,
-.frontmatter-container-header
-{
-}
-
-.frontmatter-section {
-}
-
-/* YAML frontmatter label in source mode */
-span.cm-atom.cm-hmd-frontmatter,
-/* YAML frontmatter label in preview mode */
-.frontmatter-section-label,
-/* YAML frontmatter icon in reading mode */
-.metadata-property-icon,
-.metadata-property-key-input {
-    /* color: var(--text-faint) !important; */
-    /* color: #440000 !important; */
-    /* color: var(--background-secondary); */
-    font-weight: bolder !important;
-}
-
-/* YAML frontmatter value in source mode */
-span.cm-meta.cm-hmd-frontmatter + span.cm-hmd-frontmatter,
-/* YAML frontmatter value in preview mode */
-.frontmatter-section-data {
-    /* color: var(--code-normal) !important; */
-    /* color: var(--text-muted) !important; */
-    /* color: #004060 !important; */
-    /* color: var(--code-normal) !important; */
-}
-
-/* Custom properties {{{2 */
-
-.metadata-property[data-property-key="date"] > .metadata-property-key {
-}
-
-.metadata-property[data-property-key="date"] > .metadata-property-value {
-}
-
-/* }}}2 */
-
-/* Dataview fields {{{2 */
+/* Dataview fields {{{ */
 
 span.dataview.inline-field {
     border-radius: 10px !important;
@@ -938,7 +922,7 @@ span.dataview.inline-field-value {
 .metadata-property[data-property-key="date"] > .metadata-property-value {
 }
 
-/* }}}2 */
+/* }}} */
 
 /* }}}1 */
 
