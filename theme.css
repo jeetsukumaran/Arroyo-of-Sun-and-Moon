@@ -527,6 +527,19 @@ body
 .multi-select-pill-remove-button {
 }
 
+/* YAML frontmatter label in source mode */
+span.cm-atom.cm-hmd-frontmatter,
+/* YAML frontmatter label in preview mode */
+.frontmatter-section-label,
+/* YAML frontmatter icon in reading mode */
+.metadata-property-icon,
+.metadata-property-key-input {
+    /* color: var(--text-faint) !important; */
+    /* color: #440000 !important; */
+    /* color: var(--background-secondary); */
+    font-weight: bolder !important;
+}
+
 /* }}} */
 
 /* Special Overrides {{{1 */
