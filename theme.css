@@ -1171,6 +1171,20 @@ a {
 /* --code-normal:                   var(--arroyo-light-code-fg); */
 /* --code-background:               var(--arroyo-light-code-bg); */
 
+.markdown-rendered pre,
+pre
+{
+    padding: 1rem;
+}
+
+pre code,
+.markdown-rendered code,
+.markdown-rendered pre code,
+code[class*= "language-"]
+{
+    padding: 0.25rem;
+}
+
 
 
 .theme-light .HyperMD-codeblock-begin /* Source mode */
