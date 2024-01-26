@@ -1363,9 +1363,15 @@ HyperMD-codeblock.cm-line {
 .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner-title,
 .is-focused .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner,
 .is-focused .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner .svg-icon,
+.is-focused .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner-title,
+.workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner,
+.workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner .svg-icon,
+.workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner-title,
+.is-focused .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner,
+.is-focused .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner .svg-icon,
 .is-focused .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner-title
 {
-    background: var(--arroyo-accent-major);
+    background: var(--arroyo-accent-major) !important;
     color: var(--background-primary) !important;
     font-weight: bold !important;
 }
