@@ -1323,7 +1323,7 @@ HyperMD-codeblock.cm-line {
     /* background: var(--arroyo-accent-major) !important; */
     /* color: var(--background-primary); */
     background: var(--background-primary);
-    color: var(--arroyo-accent-major);
+    color: var(--arroyo-accent-major) !important;
 }
 
 
