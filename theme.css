@@ -1110,7 +1110,6 @@ a {
 
 /* }}} */
 
-
 /*
  * Source view general lines {{{
  */
@@ -1122,7 +1121,6 @@ a {
 }
 
 /* }}} */
-
 
 /*
  * Distinguish between different modes {{{
@@ -1368,7 +1366,7 @@ HyperMD-codeblock.cm-line {
 .is-focused .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner-title
 {
     background: var(--arroyo-accent-major);
-    color: var(--background-primary);
+    color: var(--background-primary) !important;
     font-weight: bold !important;
 }
 
@@ -1390,7 +1388,6 @@ HyperMD-codeblock.cm-line {
 .theme-dark .is-focused .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
 .theme-dark .is-focused .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title
 {
-    color: #006699;
 }
 
 .theme-light .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
@@ -1406,7 +1403,6 @@ HyperMD-codeblock.cm-line {
 .theme-light .is-focused .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
 .theme-light .is-focused .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title
 {
-    color: #fff888;
 }
 
 /* .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner, */
@@ -1414,11 +1410,11 @@ HyperMD-codeblock.cm-line {
 /* .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title, */
 .workspace-tab-container .workspace-tab-header:hover
 {
-    filter: brightness(110%);
+    /* filter: brightness(110%); */
 }
 .workspace-tab-container .workspace-tab-header.is-active:hover
 {
-    filter: brightness(100%);
+    /* filter: brightness(100%); */
 }
 
 
@@ -1509,7 +1505,6 @@ HyperMD-codeblock.cm-line {
 }
 
 /* }}} */
-
 
 /*
  * Ribbon {{{
