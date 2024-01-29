@@ -1471,49 +1471,28 @@ HyperMD-codeblock.cm-line {
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    padding: 1rem;
     border-radius: 0.6rem;
     border: solid 0.5px var(--arroyo-accent-major);
 }
-.theme-dark .callout {
-    background: #484848;
-}
-.theme-light .callout {
-    /* background: #ffffff20; */
-    background: #c8c8c0;
-}
+
 .callout {
-    /* box-shadow: 0 0 2.5rem rgba(0,0,0,0.9) inset; */
-    /* box-shadow: 0 0 4.5rem rgba(0,0,0,0.5) inset; */
-    /* box-shadow: 0.1rem 0.1rem 1rem 1rem rgba(0,0,0,0.1); */
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
-    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
-    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px; */
-    /* padding: 0; */
-    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 1rem;
 }
 
 .callout-title {
-    padding: 0;
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
-    background: var(--arroyo-accent-major);
-    padding: 0.5rem;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    color: var(--background-primary);
-    /* padding: 0.2rem; */
+    padding-bottom: 0.5rem;
+    border-bottom: solid 2px var(--arroyo-accent-major);
+    font-weight: 750;
+    font-size: 1rem;
+    color: var(--arroyo-accent-major);
 }
 
-.theme-light .callout-title {
-}
-.theme-dark .callout-title {
-}
 .callout-icon .svg-icon {
-    color: var(--background-primary);
+    color: var(--arroyo-accent-major);
 }
 .callout-title-inner {
-    color: var(--background-primary);
+    color: var(--arroyo-accent-major);
 }
 
 .callout-title-inner a.internal-link,
@@ -1521,12 +1500,9 @@ HyperMD-codeblock.cm-line {
 .callout-title-inner a.internal-link:hover,
 .callout-title-inner a:hover
 {
-    color: var(--background-primary);
 }
 .callout-content {
     padding: 0.8rem;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    /* border: solid 1px red; */
 }
 
 /* }}} */
