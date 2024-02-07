@@ -393,19 +393,14 @@ body
     --accent-s: 20%;
     --accent-l: 30%;
 
-    /* --font-text-theme: "Ubuntu"; */
-    /* --font-interface-theme: "Ubuntu"; */
-    /* --font-editor-theme: "Ubuntu"; */
-    /* --font-monospace-theme: "Ubuntu Mono"; */
-
-    --font-text: "Source Sans 3";
-    --font-interface: "Source Sans 3";
-    --h1-font: "Source Sans 3";
-    --h2-font: "Source Sans 3";
-    --h3-font: "Source Sans 3";
-    --h4-font: "Source Sans 3";
-    --h5-font: "Source Sans 3";
-    --h6-font: "Source Sans 3";
+    /* --font-text: "Source Sans 3"; */
+    /* --font-interface: "Source Sans 3"; */
+    /* --h1-font: "Source Sans 3"; */
+    /* --h2-font: "Source Sans 3"; */
+    /* --h3-font: "Source Sans 3"; */
+    /* --h4-font: "Source Sans 3"; */
+    /* --h5-font: "Source Sans 3"; */
+    /* --h6-font: "Source Sans 3"; */
 
     --font-text-theme: "Ubuntu";
     --font-interface-theme: "Ubuntu";
