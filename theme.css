@@ -386,26 +386,9 @@ body
 {
     /* UI Widget Buttons etc. */
     --accent-h: 0;
-    /* --accent-s: 30%; */
-    /* --accent-l: 23%; */
-    /* --accent-s: 33%; */
-    /* --accent-l: 30%; */
     --accent-s: 20%;
     --accent-l: 30%;
 
-    /* --font-text: "Source Sans 3"; */
-    /* --font-interface: "Source Sans 3"; */
-    /* --h1-font: "Source Sans 3"; */
-    /* --h2-font: "Source Sans 3"; */
-    /* --h3-font: "Source Sans 3"; */
-    /* --h4-font: "Source Sans 3"; */
-    /* --h5-font: "Source Sans 3"; */
-    /* --h6-font: "Source Sans 3"; */
-
-    --font-text-theme: "Ubuntu";
-    --font-interface-theme: "Ubuntu";
-    --font-editor-theme: "Ubuntu";
-    --font-monospace-theme: "Ubuntu Mono";
 
     --line-height-normal: 1.6;
     --line-height-tight: 1.4;
@@ -425,16 +408,42 @@ body
     --code-radius: 1rem;
 }
 
+
+
+
 /* }}} */
 
 
-/* View mode specific fonts {{{ */
+/* Fonts {{{ */
+
+:root {
+    --arroyo-standard-font: "Ubuntu";
+}
+
+
+body
+{
+    /* UI Widget Buttons etc. */
+    font-family         : var(--arroyo-standard-font);
+    --font-text           : var(--arroyo-standard-font);
+    --font-interface      : var(--arroyo-standard-font);
+    --font-text-theme     : var(--arroyo-standard-font);
+    --font-interface-theme: var(--arroyo-standard-font);
+    --font-editor-theme   : var(--arroyo-standard-font);
+    --h1-font             : var(--arroyo-standard-font);
+    --h2-font             : var(--arroyo-standard-font);
+    --h3-font             : var(--arroyo-standard-font);
+    --h4-font             : var(--arroyo-standard-font);
+    --h5-font             : var(--arroyo-standard-font);
+    --h6-font             : var(--arroyo-standard-font);
+    --font-monospace-theme: "Ubuntu Mono";
+}
 
 /* Source and live preview */
-.markdown-source-view
+.markdown-source-view.mod-cm6 .cm_scroller
 {
     /* --font-text: "Ubuntu Mono"; */
-    --font-text: "Ubuntu Mono";
+    /* --font-text: "Ubuntu Mono"; */
     --line-height-normal: 1.3;
     --line-height-tight: 1.0;
 }
@@ -444,7 +453,6 @@ body
 /* Reading mode */
 .markdown-preview-view
 {
-    --font-text: "Source Sans 3";
     --line-height-normal: 1.175;
     --line-height-tight: 0.8;
 }
