@@ -308,7 +308,7 @@
     --text-accent-hover:             var(--arroyo-light-text-accent-hover);
 
     --tag-background:          #ffffff44;
-    --tag-background-hover:          #ffff44;
+    --tag-background-hover:          #ffffff99;
 
     --titlebar-text-color-focused:   var(--arroyo-light-titlebar-focused-text-fg);
 
@@ -557,6 +557,7 @@ span.cm-atom.cm-hmd-frontmatter,
     /* color: var(--background-secondary); */
     font-weight: bolder !important;
 }
+
 
 /* }}} */
 
