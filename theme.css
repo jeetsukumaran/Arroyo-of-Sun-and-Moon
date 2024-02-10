@@ -174,7 +174,14 @@
     /* --arroyo-accent-major:                        #663333; */
     /* --arroyo-accent-major:                        #604040; */
     /* --arroyo-accent-major:                        #583838; */
-    --arroyo-light-bg1                           : #c4b4a8; /* background main */
+    /* --arroyo-light-bg1                           : #c4b4a8; /1* background main *1/ */
+    /* --arroyo-light-bg1                           : #d4c4b8; /1* background main *1/ */
+    /* --arroyo-light-bg1                           : #eeeedd; /1* background main *1/ */
+    /* --arroyo-light-bg1                           : #e0e0d0; /1* background main *1/ */
+    /* --arroyo-light-bg1                           : #e0dad0; /1* background main *1/ */
+    /* --arroyo-light-bg1                           : #d0d8cc; /1* background main *1/ */
+    --arroyo-light-bg1                           : #d8d8cc; /* background main */
+    /* --arroyo-light-bg1                           : #d0c0b4; /1* background main *1/ */
     --arroyo-light-fg1                           : #203038; /* text */
     /* --arroyo-light-bg2                           : #446666; /1* menu background and border *1/ */
     /* --arroyo-light-bg2                           : #668890; /1* menu background and border *1/ */
@@ -307,8 +314,9 @@
     --text-accent:                   var(--arroyo-light-text-accent);
     --text-accent-hover:             var(--arroyo-light-text-accent-hover);
 
-    --tag-background:          #ffffff44;
-    --tag-background-hover:          #ffffff99;
+    /* --tag-color:                     var(--text-mute); */
+    /* --tag-background:                var(--background-secondary); */
+    /* --tag-background-hover:          var(--background-secondary); */
 
     --titlebar-text-color-focused:   var(--arroyo-light-titlebar-focused-text-fg);
 
