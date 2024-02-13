@@ -180,7 +180,8 @@
     /* --arroyo-light-bg1                           : #e0e0d0; /1* background main *1/ */
     /* --arroyo-light-bg1                           : #e0dad0; /1* background main *1/ */
     /* --arroyo-light-bg1                           : #d0d8cc; /1* background main *1/ */
-    --arroyo-light-bg1                           : #d8d8cc; /* background main */
+    /* --arroyo-light-bg1                           : #d8d8cc; /1* background main *1/ */
+    --arroyo-light-bg1                           : #d8d1cc; /* background main */
     /* --arroyo-light-bg1                           : #d0c0b4; /1* background main *1/ */
     --arroyo-light-fg1                           : #203038; /* text */
     /* --arroyo-light-bg2                           : #446666; /1* menu background and border *1/ */
