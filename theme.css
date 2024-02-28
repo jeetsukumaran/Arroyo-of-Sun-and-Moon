@@ -422,6 +422,15 @@ body
 
 /* }}} */
 
+/*
+ * Indicator {{{
+ */
+.heading-collapse-indicator, .cm-fold-indicator .collapse-indicator {
+  opacity: 1 !important;
+  position: relative;
+  margin-top: -1.6rem;
+}
+/* }}} */
 
 /* Fonts {{{ */
 
