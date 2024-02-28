@@ -425,8 +425,11 @@ body
 /*
  * Indicator {{{
  */
+
 .heading-collapse-indicator, .cm-fold-indicator .collapse-indicator {
   opacity: 1 !important;
+}
+.heading-collapse-indicator {
   position: relative;
   margin-top: -1.6rem;
 }
