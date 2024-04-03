@@ -1271,8 +1271,8 @@ HyperMD-codeblock.cm-line {
 }
 
 .workspace-tab-header {
-    background: var(--background-primary);
-    border: solid 2px var(--arroyo-accent-major);
+    /* background: var(--background-primary); */
+    /* border: solid 2px var(--arroyo-accent-major); */
 }
 
 .workspace-tab-header-inner,
@@ -1693,3 +1693,60 @@ h6:before {
 /*     border-bottom: dashed 1px !important; */
 /* } */
 
+/* ----------------------------------------------------- */
+/* --------------------- WORKSPACE --------------------- */
+/* ----------------------------------------------------- */
+
+/* VERTICAL DIVIDERS */
+
+.is-hidden-frameless {
+	--divider-vertical-height: 100% - var(--header-height);
+}
+
+.workspace-leaf-resize-handle {
+	top: var(--header-height) !important;
+}
+
+/* SPLIT WINDOWS */
+
+.workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle {
+	border-bottom-width: 0px;
+}
+
+/* RIGHT SIDEBAR BUTTON */
+
+.mod-macos.is-hidden-frameless:not(.is-popout-window) .sidebar-toggle-button.mod-right {
+	background-color: var(--background-secondary);
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding-right: var(--size-4-2);
+	z-index: var(--layer-popover);
+	border-top: 0px var(--modal-border-color) solid;
+}
+
+/* LIGHT MODE */
+
+.theme-light .mod-root .workspace-tab-header-container-inner {
+	padding: 1px 15px 0;
+  }
+
+.theme-light .workspace-tab-header-container {
+	background-color: var(--background-secondary);
+	border-top-width: 0px;
+}
+
+/* DARK MODE */
+
+.theme-dark .mod-root .workspace-tab-header-container-inner {
+	padding: 1px 15px 0;
+  }
+
+.theme-dark .workspace-tab-header-container {
+	background-color: var(--dark-grey-1);
+	border-top-width: 0px;
+}
+
+/* .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after { */
+/* 	display: none; */
+/* } */
