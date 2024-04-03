@@ -196,6 +196,8 @@
     /* --arroyo-light-bg2                           : #709090; /1* menu background and border *1/ */
     /* --arroyo-light-bg2                           : #609090; /1* menu background and border *1/ */
     --arroyo-light-bg2                           : #709090; /* menu background and border */
+    /* --arroyo-light-bg3                           : #80a0a0; /1* menu background and border *1/ */
+    --arroyo-light-bg3                           : #80a0a0; /* menu background and border */
     /* --arroyo-light-bg2                           : #608888; /1* menu background and border *1/ */
     /* --arroyo-light-bg2                           : #509090; /1* menu background and border *1/ */
     /* --arroyo-light-bg2                           : #409090; /1* menu background and border *1/ */
@@ -290,7 +292,7 @@
     /* --background-secondary:          #607878; */
     /* --background-secondary:          #608078; */
     --maya-earth-green-background-secondary:          #78866B;
-    --background-secondary-alt:      var(--arroyo-light-bg2);
+    --background-secondary-alt:      var(--arroyo-light-bg3);
     --background-modifier-border:    var(--arroyo-light-bg2);
 
 
