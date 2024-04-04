@@ -780,9 +780,10 @@ span.cm-atom.cm-hmd-frontmatter,
 .workspace-leaf-resize-handle
 {
     background: var(--background-secondary);
-    width: 1px !important;
+    width: 0px !important;
     /* border-left: solid 1px; */
     /* visibility: hidden; */
+    /* border: solid 2px var(--arroyo-accent-major); */
 }
 
 /* .nav-header, */
@@ -1206,7 +1207,6 @@ HyperMD-codeblock.cm-line {
  * UI Tabs {{{
  */
 
-
 /* All tab headers, stacked or unstacked, sidebar or otherwise {{{ */
 
 .workspace-tab-header {
@@ -1334,12 +1334,15 @@ HyperMD-codeblock.cm-line {
 }
 
 .workspace-tab-container .workspace-tab-header.is-active {
-    border-left: 1px solid var(--background-primary);
 }
-.workspace-tab-container .workspace-tab-header.is-active,
+.workspace-tab-container .workspace-tab-header.is-active {
+    /* border: solid 1px red; */
+}
 .workspace-tab-container .is-active .workspace-tab-header-inner-title {
-    /* border-right: 1px solid var(--background-primary); */
     /* color: var(--background-primary); */
+}
+
+.workspace-tab-header {
 }
 
 .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner,
@@ -1533,8 +1536,6 @@ HyperMD-codeblock.cm-line {
 }
 
 /* }}} */
-
-
 
 /*
  * Standard Body Elements {{{
