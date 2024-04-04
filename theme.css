@@ -234,7 +234,8 @@
     --arroyo-light-text-highlight-bg             : #00888844;
     --arroyo-light-text-highlight-fg             : none;
     /* --arroyo-light-text-accent                   : #014b70; /1* links *1/ */
-    --arroyo-light-text-accent                   : #006644; /* links */
+    /* --arroyo-light-text-accent                   : #006666; /1* links *1/ */
+    --arroyo-light-text-accent                   : #006060; /* links */
     --arroyo-light-text-accent-hover             : #000088; /* links */
 
     --arroyo-light-text-selection-bg             : #0088ff44;
