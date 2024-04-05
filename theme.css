@@ -781,7 +781,7 @@ span.cm-atom.cm-hmd-frontmatter,
 .workspace-leaf-resize-handle
 {
     background: var(--background-secondary);
-    width: 0px !important;
+    width: 2px !important;
     /* border-left: solid 1px; */
     /* visibility: hidden; */
     /* border: solid 2px var(--arroyo-accent-major); */
