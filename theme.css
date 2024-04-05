@@ -1219,7 +1219,11 @@ HyperMD-codeblock.cm-line {
 .workspace-tab-header-inner .svg-icon
 {
     color: var(--arroyo-accent-major);
-    font-weight: 700;
+}
+
+.workspace-tab-header-inner-title {
+    font-weight: 600 !important;
+    font-size: 0.7rem !important;
 }
 
 /* }}} */
@@ -1321,10 +1325,6 @@ HyperMD-codeblock.cm-line {
 }
 .workspace-tab-container .workspace-tab-header-inner {
 }
-.workspace-tab-container .workspace-tab-header-inner-title {
-    font-weight: bold !important;
-}
-
 .workspace-tab-container .workspace-tab-header.is-active {
 }
 .workspace-tab-container .workspace-tab-header.is-active {
