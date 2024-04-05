@@ -1280,6 +1280,7 @@ HyperMD-codeblock.cm-line {
     /* background: red !important; */
 }
 .workspace-tab-header .workspace-tab-header-inner {
+    border: none;
     background: var(--background-secondary);
     color: var(--arroyo-accent-major);
 }
@@ -1304,31 +1305,24 @@ HyperMD-codeblock.cm-line {
 }
 
 
-/* .workspace-tab-header:hover */
-/* { */
-/*     filter: brightness(110%); */
-/* } */
-/* .workspace-tab-header.is-active:hover */
-/* { */
-/*     filter: brightness(100%); */
-/* } */
-
 /* }}} */
 
 /* Stacked tabs (only) {{{ */
-.workspace-tab-container .workspace-tab-header,
-.workspace-tab-container .workspace-tab-header::hover {
-    background: var(--background-secondary-alt) !important;
+
+.workspace-tab-container .workspace-tab-header {
     color: var(--background-primary);
     border: none;
-    /* border: 1px dotted var(--arroyo-accent-major); */
-    /* background: red !important; */
+    border-left: solid 1px var(--arroyo-accent-major);
+    width: 24px !important;
 }
-.workspace-tab-container .workspace-tab-header {
-    /* border-right: 1px solid var(--arroyo-accent-major); */
-    border: solid 0.5px var(--arroyo-accent-major);
+.workspace-tab-container .workspace-tab-header-inner {
+    background: var(--background-secondary-alt);
+    color: var(--arroyo-accent-major);
+    opacity: 0.8;
+    padding: 0;
+    margin: 0;
+    /* width: 10px; */
 }
-
 .workspace-tab-container .workspace-tab-header.is-active {
 }
 .workspace-tab-container .workspace-tab-header.is-active {
@@ -1336,9 +1330,6 @@ HyperMD-codeblock.cm-line {
 }
 .workspace-tab-container .is-active .workspace-tab-header-inner-title {
     /* color: var(--background-primary); */
-}
-
-.workspace-tab-header {
 }
 
 .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner,
@@ -1364,42 +1355,9 @@ HyperMD-codeblock.cm-line {
 
 /* Various hovers, actives and other interaction state dynamics {{{ */
 
-.theme-dark .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
-.theme-dark .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
-.theme-dark .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title,
-.theme-dark .is-focused .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
-.theme-dark .is-focused .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
-.theme-dark .is-focused .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title,
-.theme-dark .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
-.theme-dark .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
-.theme-dark .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title,
-.theme-dark .is-focused .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
-.theme-dark .is-focused .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
-.theme-dark .is-focused .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title
-{
-}
-
-.theme-light .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
-.theme-light .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
-.theme-light .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title,
-.theme-light .is-focused .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
-.theme-light .is-focused .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
-.theme-light .is-focused .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title,
-.theme-light .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
-.theme-light .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
-.theme-light .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title,
-.theme-light .is-focused .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner,
-.theme-light .is-focused .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon,
-.theme-light .is-focused .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title
-{
-}
-
-/* .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner, */
-/* .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner .svg-icon, */
-/* .workspace-tab-container .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title, */
 .workspace-tab-container .workspace-tab-header:hover
 {
-    /* filter: brightness(110%); */
+    background-color: var(--background-secondary-alt) !important;
 }
 .workspace-tab-container .workspace-tab-header.is-active:hover
 {
@@ -1691,3 +1649,4 @@ h6:before {
 /* .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after { */
 /* 	display: none; */
 /* } */
+
