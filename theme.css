@@ -1275,13 +1275,14 @@ HyperMD-codeblock.cm-line {
 /* Unstacked tabs  {{{ */
 
 .workspace-tab-header {
+    background: var(--background-secondary-alt);
     border: none;
     border: 1px solid var(--arroyo-accent-major);
     /* background: red !important; */
 }
 .workspace-tab-header .workspace-tab-header-inner {
     border: none;
-    background: var(--background-secondary);
+    background: var(--background-secondary-alt);
     color: var(--arroyo-accent-major);
 }
 
@@ -1316,12 +1317,6 @@ HyperMD-codeblock.cm-line {
     width: 24px !important;
 }
 .workspace-tab-container .workspace-tab-header-inner {
-    background: var(--background-secondary-alt);
-    color: var(--arroyo-accent-major);
-    opacity: 0.8;
-    padding: 0;
-    margin: 0;
-    /* width: 10px; */
 }
 .workspace-tab-container .workspace-tab-header.is-active {
 }
@@ -1357,7 +1352,7 @@ HyperMD-codeblock.cm-line {
 
 .workspace-tab-container .workspace-tab-header:hover
 {
-    background-color: var(--background-secondary-alt) !important;
+    background-color: var(--background-secondary) !important;
 }
 .workspace-tab-container .workspace-tab-header.is-active:hover
 {
