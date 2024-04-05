@@ -781,8 +781,9 @@ span.cm-atom.cm-hmd-frontmatter,
 .workspace-leaf-resize-handle
 {
     border: none !important;
-    background:  var(--arroyo-accent-major);
-    width: 1px !important;
+    background:  var(--text-muted);
+    width: 2px !important;
+    opacity: 0.4;
     /* visibility: hidden; */
     /* border: solid 2px var(--arroyo-accent-major); */
 }
