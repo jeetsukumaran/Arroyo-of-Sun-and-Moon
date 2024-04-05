@@ -196,7 +196,6 @@
     /* --arroyo-light-bg2                           : #709090; /1* menu background and border *1/ */
     /* --arroyo-light-bg2                           : #609090; /1* menu background and border *1/ */
     --arroyo-light-bg2                           : #709090; /* menu background and border */
-    /* --arroyo-light-bg3                           : #80a0a0; /1* menu background and border *1/ */
     --arroyo-light-bg3                           : #80a0a0; /* menu background and border */
     /* --arroyo-light-bg2                           : #608888; /1* menu background and border *1/ */
     /* --arroyo-light-bg2                           : #509090; /1* menu background and border *1/ */
@@ -1214,11 +1213,6 @@ HyperMD-codeblock.cm-line {
     box-shadow: none !important;
 }
 
-.workspace-tab-header {
-    /* background: var(--background-primary); */
-    /* border: solid 2px var(--arroyo-accent-major); */
-}
-
 .workspace-tab-header-inner,
 .workspace-tab-header-inner .svg-icon
 {
@@ -1243,6 +1237,7 @@ HyperMD-codeblock.cm-line {
 .mod-right-split .workspace-tab-header-inner-title
 {
     /* color: var(--arroyo-accent-major); */
+    /* stroke-width: 3px; */
 }
 .mod-left-split .is-active .workspace-tab-header,
 .mod-right-split .is-active .workspace-tab-header {
@@ -1281,7 +1276,7 @@ HyperMD-codeblock.cm-line {
 
 .workspace-tab-header {
     border: none;
-    /* border: 1px dotted var(--arroyo-accent-major); */
+    border: 1px solid var(--arroyo-accent-major);
     /* background: red !important; */
 }
 .workspace-tab-header .workspace-tab-header-inner {
@@ -1309,28 +1304,29 @@ HyperMD-codeblock.cm-line {
 }
 
 
-.workspace-tab-header:hover
-{
-    filter: brightness(110%);
-}
-.workspace-tab-header.is-active:hover
-{
-    filter: brightness(100%);
-}
+/* .workspace-tab-header:hover */
+/* { */
+/*     filter: brightness(110%); */
+/* } */
+/* .workspace-tab-header.is-active:hover */
+/* { */
+/*     filter: brightness(100%); */
+/* } */
 
 /* }}} */
 
 /* Stacked tabs (only) {{{ */
-.workspace-tab-container .workspace-tab-header {
-    background: var(--background-secondary);
+.workspace-tab-container .workspace-tab-header,
+.workspace-tab-container .workspace-tab-header::hover {
+    background: var(--background-secondary-alt) !important;
     color: var(--background-primary);
     border: none;
     /* border: 1px dotted var(--arroyo-accent-major); */
     /* background: red !important; */
 }
-.workspace-tab-container .workspace-tab-header .workspace-tab-header-inner {
-    border-right: 1px dotted var(--arroyo-accent-major);
-    border-left: 1px dotted var(--arroyo-accent-major);
+.workspace-tab-container .workspace-tab-header {
+    /* border-right: 1px solid var(--arroyo-accent-major); */
+    border: solid 0.5px var(--arroyo-accent-major);
 }
 
 .workspace-tab-container .workspace-tab-header.is-active {
