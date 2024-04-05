@@ -16,6 +16,8 @@
     --arroyo-dark-accent-major:       #c8bda8;
     /* --arroyo-accent-major:       #ff9900; */
     /* --arroyo-accent-major:       #c8bda8; */
+    /* --tab-font-weight: 700; */
+    /* --tab-stacked-font-weight: 700; */
 }
 
 /* Dark Scheme Color Definitions {{{1 */
@@ -1318,6 +1320,10 @@ HyperMD-codeblock.cm-line {
 }
 .workspace-tab-container .workspace-tab-header-inner {
 }
+.workspace-tab-container .workspace-tab-header-inner-title {
+    font-weight: bold !important;
+}
+
 .workspace-tab-container .workspace-tab-header.is-active {
 }
 .workspace-tab-container .workspace-tab-header.is-active {
