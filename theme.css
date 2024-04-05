@@ -1361,10 +1361,6 @@ HyperMD-codeblock.cm-line {
 {
     background-color: var(--background-secondary) !important;
 }
-.workspace-tab-container .workspace-tab-header.is-active:hover
-{
-    /* filter: brightness(100%); */
-}
 
 
 /* }}} */
