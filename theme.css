@@ -1216,6 +1216,10 @@ HyperMD-codeblock.cm-line {
     box-shadow: none !important;
 }
 
+.workspace-tab-header-inner::after {
+    visibility: hidden;
+}
+
 .workspace-tab-header-inner,
 .workspace-tab-header-inner .svg-icon
 {
