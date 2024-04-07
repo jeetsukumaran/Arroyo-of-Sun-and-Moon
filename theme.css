@@ -563,7 +563,8 @@ hr {
     font-style: italic !important;
 }
 
-.metadata-properties-heading .collapse-indicator
+.metadata-properties-heading .collapse-indicator,
+.metadata-properties-heading .collapse-icon
 {
     font-weight: 900;
     top: 0;
@@ -571,7 +572,8 @@ hr {
     opacity: 1.0;
     border-radius: 4px;
     /* border: solid 0.5px; */
-    background: var(--background-primary) !important;
+    color: var(--background-primary) !important;
+    background: var(--arroyo-accent-major);
 }
 
 .metadata-properties-title {
