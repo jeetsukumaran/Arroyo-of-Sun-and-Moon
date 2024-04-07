@@ -427,8 +427,6 @@ body
 /* }}} */
 
 
-
-
 /*
  * Indicator {{{
  */
@@ -560,9 +558,17 @@ hr {
     width: 100%;
 }
 
+.metadata-properties-title {
+    font-weight: 900;
+    font-style: italic !important;
+}
+
 .metadata-properties-heading .collapse-indicator
 {
+    font-weight: 900;
+    top: 0;
     opacity: 1.0;
+    background: var(--background-primary) !important;
 }
 
 .metadata-properties-title {
