@@ -575,6 +575,10 @@ hr {
     color: var(--background-primary) !important;
     background: var(--arroyo-accent-major);
 }
+.metadata-properties-heading .collapse-icon svg
+{
+    color: var(--background-primary) !important;
+}
 
 .metadata-properties-title {
     font-size: 0.8rem;
