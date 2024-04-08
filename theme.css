@@ -1664,7 +1664,60 @@ h6:before {
 	border-top-width: 0px;
 }
 
-/* .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after { */
-/* 	display: none; */
-/* } */
+/* Gutters {{{ */
 
+.markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers {
+  overflow: visible;
+}
+.markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement {
+  position: relative;
+  overflow: visible;
+}
+.markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement:before {
+  content: "";
+  position: absolute;
+  border-right: 1px solid var(--background-primary);
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement:after {
+  content: "";
+  position: absolute;
+  border-right: 1px solid var(--background-primary);
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement {
+     padding-left: 0.8rem;
+    padding-right: 0.8rem;
+      margin-left: 0.8rem;
+     margin-right: 0.8rem;
+    background: var(--background-secondary);
+    opacity: 0.8;
+    color: var(--background-primary);
+}
+
+.markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement {
+    border-top: solid 2px var(--background-primary);
+}
+
+
+.markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement:last-child {
+    padding-bottom: 1.2rem;
+}
+
+.markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement.cm-active {
+    font-weight: bold;
+    background: var(--background-primary);
+    color: var(--background-secondary);
+    border-left: solid 4px var(--background-secondary);
+    border-right: solid 4px var(--background-secondary);
+}
+.markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement.cm-active:before {
+}
+
+.markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement.cm-active:after {
+}
+/* }}} */
