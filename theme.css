@@ -1678,7 +1678,6 @@ h6:before {
 .markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement:before {
   content: "";
   position: absolute;
-  border-right: 1px solid var(--background-primary);
   top: 0;
   bottom: 0;
   left: 0;
@@ -1686,18 +1685,14 @@ h6:before {
 .markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement:after {
   content: "";
   position: absolute;
-  border-right: 1px solid var(--background-primary);
   top: 0;
   bottom: 0;
   right: 0;
 }
 .markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement {
-    margin: 1px;
-    padding: 2px;
     background: var(--background-secondary);
-    opacity: 0.8;
     color: var(--background-primary);
-    border: solid 1px var(--background-secondary);
+    border: solid 1px var(--background-primary);
     text-align: center;
 }
 
@@ -1710,8 +1705,8 @@ h6:before {
 }
 
 .markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement.cm-active {
-    background: var(--background-primary);
-    color: var(--arroyo-accent-major);
+    color: var(--background-primary);
+    background: var(--arroyo-accent-major);
 }
 .markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement.cm-active:before {
 }
