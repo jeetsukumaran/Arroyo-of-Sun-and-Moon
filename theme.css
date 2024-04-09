@@ -1690,7 +1690,8 @@ h6:before {
   right: 0;
 }
 .markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement {
-    background: var(--background-secondary);
+    /* background: var(--background-secondary); */
+    background: #66888888;
     color: var(--background-primary);
     border: solid 1px var(--background-primary);
     text-align: center;
@@ -1705,8 +1706,10 @@ h6:before {
 }
 
 .markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement.cm-active {
+    /* color: var(--background-primary); */
+    background: #709090;
+    background: #805050cc;
     color: var(--background-primary);
-    background: var(--arroyo-accent-major);
 }
 .markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement.cm-active:before {
 }
