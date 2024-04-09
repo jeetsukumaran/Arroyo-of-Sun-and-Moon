@@ -1668,7 +1668,7 @@ h6:before {
 
 .markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers {
   overflow: visible;
-  font-size: 0.8em !important;
+  font-size: 0.8em;
   font-weight: bold;
 }
 .markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement {
@@ -1692,17 +1692,16 @@ h6:before {
   right: 0;
 }
 .markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement {
-     padding-left: 0.4rem;
-    padding-right: 0.4rem;
-      margin-left: 0.2rem;
-     margin-right: 0.2rem;
+    margin: 1px;
+    padding: 2px;
     background: var(--background-secondary);
     opacity: 0.8;
     color: var(--background-primary);
+    border: solid 1px var(--background-secondary);
+    text-align: center;
 }
 
 .markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement {
-    border-top: solid 2px var(--background-primary);
 }
 
 
@@ -1712,9 +1711,7 @@ h6:before {
 
 .markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement.cm-active {
     background: var(--background-primary);
-    color: var(--background-secondary);
-    border-left: solid 4px var(--background-secondary);
-    border-right: solid 4px var(--background-secondary);
+    color: var(--arroyo-accent-major);
 }
 .markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement.cm-active:before {
 }
