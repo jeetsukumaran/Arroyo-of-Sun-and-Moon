@@ -84,6 +84,7 @@
 
 .theme-dark
 {
+    --arroyo-countershade-04: #ffffff48;
     --arroyo-accent-major:           var(--arroyo-dark-accent-major);
     --arroyo-accent-minor:           var(--arroyo-dark-accent-minor);
     --background-primary:            var(--arroyo-dark-bg1);
@@ -284,6 +285,7 @@
 
 .theme-light
 {
+    --arroyo-countershade-04: #00000048;
     --arroyo-accent-major:           var(--arroyo-light-accent-major);
     --arroyo-accent-minor:           var(--arroyo-light-accent-minor);
     --background-primary:            var(--arroyo-light-bg1);
@@ -296,57 +298,33 @@
     --maya-earth-green-background-secondary:          #78866B;
     --background-secondary-alt:      var(--arroyo-light-bg3);
     --background-modifier-border:    var(--arroyo-light-bg2);
-
-
-
-
-
     --cursor-line-background:        var(--arroyo-light-graph-line);
     --text-normal:                   var(--arroyo-light-fg1);
     --text-faint:                    var(--arroyo-accent-major);
     --text-muted:                    var(--arroyo-accent-minor);
-
     --h1-color:                      var(--arroyo-light-text-heading-h1);
     --h2-color:                      var(--arroyo-light-text-heading-h2);
     --h3-color:                      var(--arroyo-light-text-heading-h3);
     --h4-color:                      var(--arroyo-light-text-heading-h4);
     --h5-color:                      var(--arroyo-light-text-heading-h5);
     --h6-color:                      var(--arroyo-light-text-heading-h6);
-
     --text-highlight-bg:             var(--arroyo-light-text-highlight-bg);
     --text-highlight-fg:             var(--arroyo-light-text-highlight-fg);
-
     --text-accent:                   var(--arroyo-light-text-accent);
     --text-accent-hover:             var(--arroyo-light-text-accent-hover);
-
-    /* --tag-color:                     var(--text-mute); */
-    /* --tag-background:                var(--background-secondary); */
-    /* --tag-background-hover:          var(--background-secondary); */
-
     --titlebar-text-color-focused:   var(--arroyo-light-titlebar-focused-text-fg);
-
     --inline-title-color:            #440000;
-
     --bold-color:                    #880000;
     --italic-color:                  #880000;
-
-
-
-
     --checkbox-color:                var(--text-muted);
     --checkbox-color-hover:          var(--text-muted);
     --checkbox-border-color:         var(--text-muted);
     --checkbox-border-color-hover:   var(--text-muted);
     --checklist-done-color:          var(--text-muted);
-
     --table-header-background:       var(--arroyo-light-table-header-background);
-    /* --table-header-background-hover: var(--arroyo-light-table-header-background-hover); */
     --table-row-even-background:          var(--arroyo-light-table-row-even-background);
     --table-row-odd-background:          var(--arroyo-light-table-row-odd-background);
-    /* --table-row-background-hover:    var(--arroyo-light-table-row-background-hover); */
-
     --text-selection:                var(--arroyo-light-text-selection-bg);
-
     --code-normal:     var(--text-normal);
     --code-background: #ffffff28;
     --code-comment:    #696d70;
@@ -359,32 +337,19 @@
     --code-value:      #0000ff;
     --code-variable:   #696d70;
 
-    /* --code-function: #c0d700; */
-    /* --code-keyword:  #da7dae; */
-    /* --code-normal:   #f39b35; */
-    /* --code-operator: #fc4384; */
-    /* --code-property: #d4d4d4; */
-    /* --code-string:   #e6db74; */
-    /* --code-tag:      #fc4384; */
-    /* --code-value:    #a06fca; */
-
     --icon-color:                    var(--arroyo-accent-minor);
-    /* --icon-color:                    #ff9900; */
 
     --nav-item-color-hover:          var(--arroyo-light-nav-item-hover);
     --nav-item-color-active:         var(--arroyo-light-nav-item-active);
     --nav-file-tag:                  var(--arroyo-light-nav-file-tag);
-
     --graph-line:                    var(--arroyo-light-graph-line);
     --graph-node:                    var(--arroyo-light-graph-node);
     --graph-node-tag:                var(--arroyo-light-graph-node-tag);
     --graph-node-attachment:         var(--arroyo-light-graph-node-attachement);
-
     --tab-text-color-focused-active:         var(--arroyo-light-tab-focused-active-fg);
     --tab-text-color-focused-active-current: var(--arroyo-light-tab-focused-active-current-fg);
     --arroyo-frame-accent-bg: var(--arroyo-light-frame-accent-bg);
     --arroyo-heading-accent-bg: var(--arroyo-light-heading-accent-bg);
-    /* --background-modifier-border: #f2e5bc; */
 }
 
 /* }}}1 */
@@ -793,14 +758,19 @@ span.cm-atom.cm-hmd-frontmatter,
   font-weight: bold;
 }
 
-.workspace-leaf-resize-handle
+.workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle,
+.workspace-split.mod-right-split > .workspace-leaf-resize-handle
 {
-    border: none !important;
-    background:  var(--text-muted);
-    width: 2px !important;
-    opacity: 0.4;
-    /* visibility: hidden; */
-    /* border: solid 2px var(--arroyo-accent-major); */
+    width: 4px;
+    background-color: var(--arroyo-countershade-04);
+}
+
+/* horizontal resize-handle */
+.workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle
+{
+    height: 3px ;
+    background-color: var(--arroyo-countershade-04);
 }
 
 /* .nav-header, */
