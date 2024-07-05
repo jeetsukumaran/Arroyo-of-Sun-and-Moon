@@ -408,7 +408,7 @@ body
 /* Fonts {{{ */
 
 :root {
-    --arroyo-standard-font: "Ubuntu";
+    --arroyo-standard-font: "Atkinson Hyperlegible", "Ubuntu";
 }
 
 
