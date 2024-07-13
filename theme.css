@@ -1687,3 +1687,19 @@ h6:before {
 .markdown-source-view.mod-cm6 .cm-gutters .cm-lineNumbers .cm-gutterElement.cm-active:after {
 }
 /* }}} */
+
+
+/* Active lines {{{ */
+
+/* .CodeMirror-activeline.CodeMirror-linebackground{ */
+/*   background-color: #805050cc; */
+/* } */
+
+.cm-active.cm-line{
+  background-color: #80505018;
+  border-radius: 0.2rem;
+  /* border-left: #00000033 solid 4px; */
+  /* margin-left: -2rem; */
+  /* padding-left: -2rem; */
+}
+/* }}} */
