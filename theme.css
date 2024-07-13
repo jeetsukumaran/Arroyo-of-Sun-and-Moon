@@ -12,7 +12,7 @@
     /* --arroyo-light-accent-major: #670a0a; /1* mahagoney red *1/ */
     --arroyo-light-accent-minor: #603030;
     /* --arroyo-dark-accent-major: #ff9900; */
-    --arroyo-dark-accent-major: #ff9900;
+    --arroyo-dark-accent-major:       #ff9900;
     --arroyo-dark-accent-major:       #c8bda8;
     /* --arroyo-accent-major:       #ff9900; */
     /* --arroyo-accent-major:       #c8bda8; */
@@ -1695,11 +1695,16 @@ h6:before {
 /*   background-color: #805050cc; */
 /* } */
 
-.cm-active.cm-line{
+.theme-dark .cm-active.cm-line{
+  background-color: #ff990018;
+  border-radius: 0.2rem;
+  border-top: #ffffff33 solid 1px;
+  border-bottom: #ffffff33 solid 1px;
+}
+.theme-light .cm-active.cm-line{
   background-color: #80505018;
   border-radius: 0.2rem;
-  /* border-left: #00000033 solid 4px; */
-  /* margin-left: -2rem; */
-  /* padding-left: -2rem; */
+  border-top: #00000033 solid 1px;
+  border-bottom: #00000033 solid 1px;
 }
 /* }}} */
