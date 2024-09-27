@@ -69,8 +69,8 @@
   --arroyo-light-table-row-odd: #eeeedd30;
 
   /* Fonts */
-  /* --arroyo-font-main: "Atkinson Hyperlegible", "Ubuntu"; */
-  --arroyo-font-main: "Ubuntu";
+  --arroyo-font-main: "Atkinson Hyperlegible", "Ubuntu";
+  /* --arroyo-font-main: "Ubuntu"; */
   --arroyo-font-mono: "Ubuntu Mono";
 }
 
