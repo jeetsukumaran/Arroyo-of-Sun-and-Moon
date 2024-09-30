@@ -107,8 +107,8 @@ body {
   --font-text: var(--arroyo-font-main);
   --font-monospace: var(--arroyo-font-mono);
   font-family: var(--font-text);
-  --line-height-normal: 1.6;
-  --line-height-tight: 1.4;
+  --line-height-normal: 1.2;
+  --line-height-tight: 1;
 }
 
 h1, h2, h3, h4, h5, h6,
