@@ -144,13 +144,15 @@ h6::before { content: '⫼⫼⫼⫼⫼⫼' "\0000a0"; }
 /* Links */
 a, .cm-formatting-link, .cm-link {
   font-size: 90%;
-  font-weight: bold;
+  font-weight: 100;
+    text-decoration: dotted 1px;
 }
 
 .cm-hmd-internal-link:not(.cm-link-alias):not(.cm-link-alias-pipe),
 .cm-url {
-  color: var(--text-accent);
-  background: var(--background-secondary-alt);
+  font-size: 90%;
+  font-weight: 100;
+  text-decoration: dotted 1px;
 }
 
 /* Code */
