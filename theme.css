@@ -72,6 +72,8 @@
   --arroyo-font-main: "Atkinson Hyperlegible", "Ubuntu";
   /* --arroyo-font-main: "Ubuntu"; */
   --arroyo-font-mono: "Ubuntu Mono";
+
+
 }
 
 /* Theme Base Styles */
@@ -109,6 +111,25 @@ body {
   font-family: var(--font-text);
   --line-height-normal: 1.2;
   --line-height-tight: 1;
+}
+
+/* Tags */
+body {
+  /* --tag-background: #00000000; */
+  /* --tag-border-width: 0px; */
+  /* --tag-border-color: var(--background-primary); */
+  /* --tag-color: var(--text-accent); */
+  --tag-color: var(--text-muted);
+  --tag-size: 0.8rem;
+  --tag-weight: 540;
+  /* --tag-decoration: none; */
+  --tag-padding-y: 0.1em;
+  --tag-padding-x: 0.5em;
+}
+
+a.cm-hashtag,
+a.tag {
+    line-height: 1.5 !important;
 }
 
 h1, h2, h3, h4, h5, h6,
