@@ -120,16 +120,16 @@ body {
   /* --tag-border-color: var(--background-primary); */
   /* --tag-color: var(--text-accent); */
   --tag-color: var(--text-muted);
-  --tag-size: 0.8rem;
-  --tag-weight: 540;
+  /* --tag-size: 0.8rem; */
+  /* --tag-weight: 540; */
   /* --tag-decoration: none; */
-  --tag-padding-y: 0.1em;
+  --tag-padding-y: 0.22em;
   --tag-padding-x: 0.5em;
 }
 
 a.cm-hashtag,
 a.tag {
-    line-height: 1.5 !important;
+    line-height: 1.8 !important;
 }
 
 h1, h2, h3, h4, h5, h6,
