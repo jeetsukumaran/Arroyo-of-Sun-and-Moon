@@ -87,6 +87,7 @@
   --text-accent-hover: var(--arroyo-dark-link-hover);
   --interactive-accent: var(--arroyo-dark-accent-major);
   --background-modifier-border: var(--arroyo-dark-bg2);
+  --arroyo-countershade-01: #ffffff10;
   --arroyo-countershade-04: #ffffff48;
 }
 
@@ -101,6 +102,7 @@
   --text-accent-hover: var(--arroyo-light-link-hover);
   --interactive-accent: var(--arroyo-light-accent-major);
   --background-modifier-border: var(--arroyo-light-bg2);
+  --arroyo-countershade-01: #00000010;
   --arroyo-countershade-04: #00000048;
 }
 
@@ -316,4 +318,19 @@ code[class*="language-"] {
   .callout {
     margin: 1rem auto;
   }
+}
+
+
+.HyperMD-quote {
+    --blockquote-color: #904090;
+    /* border-left: solid 2px var(--blockquote-color); */
+    /* box-shadow: -10px 0px 10px 1px #aaaaaa; */
+    /* box-shadow: 0px 0px 10px #232931; */
+    box-shadow: inset 0.75rem 0 0 0 #90409040;
+    background: var(--arroyo-countershade-01);
+}
+
+.HyperMD-quote .cm-quote {
+    font-style: oblique;
+    /* font-style: italic; */
 }
