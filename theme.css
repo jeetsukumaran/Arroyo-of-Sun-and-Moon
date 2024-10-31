@@ -89,6 +89,8 @@
   --background-modifier-border: var(--arroyo-dark-bg2);
   --arroyo-countershade-01: #ffffff10;
   --arroyo-countershade-04: #ffffff48;
+  --arroyo-countershade-alt-01: #c8bda810;
+  --arroyo-countershade-alt-04: #c8bda848;
 }
 
 .theme-light {
@@ -104,6 +106,8 @@
   --background-modifier-border: var(--arroyo-light-bg2);
   --arroyo-countershade-01: #00000010;
   --arroyo-countershade-04: #00000048;
+  --arroyo-countershade-alt-01: #60303010;
+  --arroyo-countershade-alt-04: #60303048;
 }
 
 /* Typography */
