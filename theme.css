@@ -107,9 +107,9 @@
 
   /* Code Colors */
   /* --code-normal: #60a8a0; */
-  /* --code-background: #282424; */
   --code-size: var(--font-smaller);
   --code-background: var(--background-primary-alt);
+  --code-background: #40505020;
   --code-normal: var(--text-muted);
   --code-comment: var(--text-faint);
   --code-function: var(--color-yellow);
