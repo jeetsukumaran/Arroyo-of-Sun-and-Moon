@@ -87,6 +87,21 @@
   --arroyo-countershade-04: #ffffff48;
   --arroyo-countershade-alt-01: #c8bda810;
   --arroyo-countershade-alt-04: #c8bda848;
+
+  /* --code-normal: #60a8a0; */
+  --code-size: var(--font-smaller);
+  --code-background: var(--background-primary-alt);
+  --code-background: #40505020;
+  --code-normal: var(--text-muted);
+  --code-comment: var(--text-faint);
+  --code-function: var(--color-yellow);
+  --code-important: var(--color-orange);
+  --code-keyword: var(--color-pink);
+  --code-property: var(--color-blue);
+  --code-punctuation: var(--text-muted);
+  --code-string: var(--color-green);
+  --code-tag: var(--color-red);
+  --code-value: var(--color-purple);
 }
 
 .theme-light {
@@ -105,7 +120,6 @@
   --arroyo-countershade-alt-01: #60303010;
   --arroyo-countershade-alt-04: #60303048;
 
-  /* Code Colors */
   /* --code-normal: #60a8a0; */
   --code-size: var(--font-smaller);
   --code-background: var(--background-primary-alt);
