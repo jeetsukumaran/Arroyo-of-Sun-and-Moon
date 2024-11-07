@@ -50,10 +50,6 @@
   --arroyo-light-link: #006060;
   --arroyo-light-link-hover: #000088;
 
-  /* Code Colors */
-  --arroyo-dark-code-fg: #60a8a0;
-  --arroyo-dark-code-bg: #282424;
-
   /* UI Colors */
   --arroyo-dark-highlight: #555555;
   --arroyo-dark-selection: #501818;
@@ -108,6 +104,22 @@
   --arroyo-countershade-04: #00000048;
   --arroyo-countershade-alt-01: #60303010;
   --arroyo-countershade-alt-04: #60303048;
+
+  /* Code Colors */
+  /* --code-normal: #60a8a0; */
+  /* --code-background: #282424; */
+  --code-size: var(--font-smaller);
+  --code-background: var(--background-primary-alt);
+  --code-normal: var(--text-muted);
+  --code-comment: var(--text-faint);
+  --code-function: var(--color-yellow);
+  --code-important: var(--color-orange);
+  --code-keyword: var(--color-pink);
+  --code-property: var(--color-blue);
+  --code-punctuation: var(--text-muted);
+  --code-string: var(--color-green);
+  --code-tag: var(--color-red);
+  --code-value: var(--color-purple);
 }
 
 /* Typography */
