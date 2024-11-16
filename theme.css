@@ -115,6 +115,7 @@
   --text-accent-hover: var(--arroyo-light-link-hover);
   --interactive-accent: var(--arroyo-light-accent-major);
   --background-modifier-border: var(--arroyo-light-bg2);
+  --bold-color: var(--arroyo-light-accent-minor);
   --arroyo-countershade-01: #00000010;
   --arroyo-countershade-04: #00000048;
   --arroyo-countershade-alt-01: #60303010;
