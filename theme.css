@@ -276,6 +276,12 @@ code[class*="language-"] {
   padding: 1rem;
 }
 
+.callout[data-callout="quote"] {
+    --pdf-plus-highlight-opacity: 0.1;
+    --pdf-plus-default-color-rgb: var(--callout-color);
+    --pdf-plus-default-color-rgb: 50, 100, 150;
+}
+
 .callout-title {
   padding-bottom: 0.5rem;
   border-bottom: solid 2px var(--interactive-accent);
