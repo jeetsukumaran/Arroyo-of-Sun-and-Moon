@@ -12,8 +12,9 @@
   /* Light Theme Colors */
   --arroyo-light-bg1: #d8d1cc;
   --arroyo-light-fg1: #203038;
-  --arroyo-light-bg2: #709090;
-  --arroyo-light-bg3: #80a0a0;
+  --arroyo-light-bg2: #90a0a0;
+  /* --arroyo-light-bg3: #80a0a0; */
+  --arroyo-light-bg3: #a0b0b0;
 
   /* Dark Theme Colors */
   --arroyo-dark-bg1: var(--arroyo-dark-gray);
@@ -45,9 +46,7 @@
   --arroyo-light-heading-6: #008888;
 
   /* Link Colors */
-  --arroyo-dark-link: #80b0a8;
-  --arroyo-dark-link-hover: #ffff00;
-  --arroyo-light-link: #006060;
+  --arroyo-light-link: #005050;
   --arroyo-light-link-hover: #000088;
 
   /* UI Colors */
