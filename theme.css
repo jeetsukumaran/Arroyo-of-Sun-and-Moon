@@ -219,8 +219,8 @@ a.tag {
 /* Links */
 a, .cm-formatting-link, .cm-link {
   font-size: 90%;
-  font-weight: 100;
-    text-decoration: dotted 1px;
+  /* font-weight: 100; */
+  text-decoration: dotted 1px;
 }
 
 .cm-hmd-internal-link:not(.cm-link-alias):not(.cm-link-alias-pipe),
