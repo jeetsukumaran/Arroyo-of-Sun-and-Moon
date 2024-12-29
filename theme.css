@@ -122,19 +122,18 @@
   --arroyo-countershade-alt-04: #60303048;
 
   /* --code-normal: #60a8a0; */
-  --code-size: var(--font-smaller);
-  --code-background: var(--background-primary-alt);
-  --code-background: #40505020;
-  --code-normal: var(--text-muted);
-  --code-comment: var(--text-faint);
-  --code-function: var(--color-yellow);
-  --code-important: var(--color-orange);
-  --code-keyword: var(--color-pink);
-  --code-property: var(--color-blue);
+  --code-size       : var(--font-smaller);
+  --code-background : #40505020;
+  --code-normal     : var(--text-muted);
+  --code-comment    : var(--text-faint);
+  --code-function   : #0000ff;
+  --code-important  : var(--color-orange);
+  --code-keyword    : var(--color-pink);
+  --code-property   : var(--color-blue);
   --code-punctuation: var(--text-muted);
-  --code-string: var(--color-green);
-  --code-tag: var(--color-red);
-  --code-value: var(--color-purple);
+  --code-string     : #007744;
+  --code-tag        : var(--color-red);
+  --code-value      : var(--color-purple);
 }
 
 /* Typography */
