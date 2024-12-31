@@ -189,7 +189,21 @@ h1, h2, h3, h4, h5, h6,
 .cm-header-1, .cm-header-2, .cm-header-3, .cm-header-4, .cm-header-5, .cm-header-6, /* Both text part and '#' part */
 .cm-formatting-header-1, .cm-formatting-header-2, .cm-formatting-header-3, .cm-formatting-header-4, .cm-formatting-header-5, .cm-formatting-header-6, /* just the '#' part */
 {
-  font-variant: normal !important;
+  /* font-variant: normal !important; */
+}
+
+h2,
+.cm-header-2,
+.cm-formatting-header-2
+{
+    padding-top: 0.5rem;
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    background: var(--arroyo-countershade-01);
+}
+.cm-formatting-header-2
+{
+    /* border: none; */
 }
 
 .cm-formatting-header-1 { color: var(--h1-color); }
