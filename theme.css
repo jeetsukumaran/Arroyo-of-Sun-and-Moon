@@ -196,11 +196,21 @@ h2,
 .cm-header-2,
 .cm-formatting-header-2
 {
-    padding-top: 0.5rem;
+    padding-top: 0.2rem;
     border-bottom: solid 1px;
     border-top: solid 1px;
     background: var(--arroyo-countershade-01);
 }
+
+h2,
+.cm-header-2,
+.cm-formatting-header-2
+{
+    /* padding: 0; */
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
 .cm-formatting-header-2
 {
     /* border: none; */
