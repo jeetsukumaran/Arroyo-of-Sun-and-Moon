@@ -443,3 +443,9 @@ code[class*="language-"] {
     font-style: oblique;
     /* font-style: italic; */
 }
+
+
+.graph-view.color-line {
+    color: var(--text-faint);
+}
+
