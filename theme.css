@@ -421,7 +421,8 @@ code[class*="language-"] {
 }
 
 .markdown-rendered blockquote {
-    border-radius: 0.5rem;
+    /* border-radius: 0.5rem; */
+    border-radius: 0  0.5rem 0.5rem 0;
     border-inline-start-width: 0.5rem;
     margin-right: 0.5rem;
     /* box-shadow: inset 0.15rem 0 0 0 #50008030; */
